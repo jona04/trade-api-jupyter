@@ -1,0 +1,6502 @@
+{
+  "EURUSD": {
+    "Symbol": "EURUSD",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "EURUSD_L": {
+    "Symbol": "EURUSD_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "NZDUSD": {
+    "Symbol": "NZDUSD",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "NZDUSD_L": {
+    "Symbol": "NZDUSD_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "XAUUSD": {
+    "Symbol": "XAUUSD",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "XAUUSD_L": {
+    "Symbol": "XAUUSD_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "#AUS200": {
+    "Symbol": "#AUS200",
+    "Precision": 1,
+    "TradeAmountStep": 1.0
+  },
+  "#AUS200_L": {
+    "Symbol": "#AUS200_L",
+    "Precision": 1,
+    "TradeAmountStep": 1.0
+  },
+  "XBRUSD": {
+    "Symbol": "XBRUSD",
+    "Precision": 2,
+    "TradeAmountStep": 10.0
+  },
+  "XBRUSD_L": {
+    "Symbol": "XBRUSD_L",
+    "Precision": 2,
+    "TradeAmountStep": 10.0
+  },
+  "XNGUSD": {
+    "Symbol": "XNGUSD",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "XNGUSD_L": {
+    "Symbol": "XNGUSD_L",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "BTCCNH": {
+    "Symbol": "BTCCNH",
+    "Precision": 2,
+    "TradeAmountStep": 0.001
+  },
+  "BTCCNH_L": {
+    "Symbol": "BTCCNH_L",
+    "Precision": 2,
+    "TradeAmountStep": 0.001
+  },
+  "BTCEUR": {
+    "Symbol": "BTCEUR",
+    "Precision": 3,
+    "TradeAmountStep": 0.001
+  },
+  "BTCEUR_L": {
+    "Symbol": "BTCEUR_L",
+    "Precision": 3,
+    "TradeAmountStep": 0.001
+  },
+  "BTCUSD": {
+    "Symbol": "BTCUSD",
+    "Precision": 3,
+    "TradeAmountStep": 0.001
+  },
+  "BTCUSD_L": {
+    "Symbol": "BTCUSD_L",
+    "Precision": 3,
+    "TradeAmountStep": 0.001
+  },
+  "LTCCNH": {
+    "Symbol": "LTCCNH",
+    "Precision": 2,
+    "TradeAmountStep": 0.01
+  },
+  "LTCCNH_L": {
+    "Symbol": "LTCCNH_L",
+    "Precision": 2,
+    "TradeAmountStep": 0.01
+  },
+  "LTCEUR": {
+    "Symbol": "LTCEUR",
+    "Precision": 3,
+    "TradeAmountStep": 0.01
+  },
+  "LTCEUR_L": {
+    "Symbol": "LTCEUR_L",
+    "Precision": 3,
+    "TradeAmountStep": 0.01
+  },
+  "LTCRUB": {
+    "Symbol": "LTCRUB",
+    "Precision": 3,
+    "TradeAmountStep": 0.01
+  },
+  "LTCRUB_L": {
+    "Symbol": "LTCRUB_L",
+    "Precision": 3,
+    "TradeAmountStep": 0.01
+  },
+  "LTCUSD": {
+    "Symbol": "LTCUSD",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "LTCUSD_L": {
+    "Symbol": "LTCUSD_L",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "ETHUSD": {
+    "Symbol": "ETHUSD",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "ETHUSD_L": {
+    "Symbol": "ETHUSD_L",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "ETHRUB": {
+    "Symbol": "ETHRUB",
+    "Precision": 3,
+    "TradeAmountStep": 0.01
+  },
+  "ETHRUB_L": {
+    "Symbol": "ETHRUB_L",
+    "Precision": 3,
+    "TradeAmountStep": 0.01
+  },
+  "DSHBTC": {
+    "Symbol": "DSHBTC",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "DSHBTC_L": {
+    "Symbol": "DSHBTC_L",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "LTCBTC": {
+    "Symbol": "LTCBTC",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "LTCBTC_L": {
+    "Symbol": "LTCBTC_L",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "ETHBTC": {
+    "Symbol": "ETHBTC",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "ETHBTC_L": {
+    "Symbol": "ETHBTC_L",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "GBPUSD": {
+    "Symbol": "GBPUSD",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "GBPUSD_L": {
+    "Symbol": "GBPUSD_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "USDCHF": {
+    "Symbol": "USDCHF",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "USDCHF_L": {
+    "Symbol": "USDCHF_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "XAGUSD": {
+    "Symbol": "XAGUSD",
+    "Precision": 3,
+    "TradeAmountStep": 50.0
+  },
+  "XAGUSD_L": {
+    "Symbol": "XAGUSD_L",
+    "Precision": 3,
+    "TradeAmountStep": 50.0
+  },
+  "#FCHI": {
+    "Symbol": "#FCHI",
+    "Precision": 1,
+    "TradeAmountStep": 1.0
+  },
+  "#FCHI_L": {
+    "Symbol": "#FCHI_L",
+    "Precision": 1,
+    "TradeAmountStep": 1.0
+  },
+  "XTIUSD": {
+    "Symbol": "XTIUSD",
+    "Precision": 2,
+    "TradeAmountStep": 10.0
+  },
+  "XTIUSD_L": {
+    "Symbol": "XTIUSD_L",
+    "Precision": 2,
+    "TradeAmountStep": 10.0
+  },
+  "AUDUSD": {
+    "Symbol": "AUDUSD",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "AUDUSD_L": {
+    "Symbol": "AUDUSD_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "AUDCAD": {
+    "Symbol": "AUDCAD",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "AUDCAD_L": {
+    "Symbol": "AUDCAD_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "USDJPY": {
+    "Symbol": "USDJPY",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "USDJPY_L": {
+    "Symbol": "USDJPY_L",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "AUDCHF": {
+    "Symbol": "AUDCHF",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "AUDCHF_L": {
+    "Symbol": "AUDCHF_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "#GDAXIm": {
+    "Symbol": "#GDAXIm",
+    "Precision": 1,
+    "TradeAmountStep": 1.0
+  },
+  "#GDAXIm_L": {
+    "Symbol": "#GDAXIm_L",
+    "Precision": 1,
+    "TradeAmountStep": 1.0
+  },
+  "USDCAD": {
+    "Symbol": "USDCAD",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "USDCAD_L": {
+    "Symbol": "USDCAD_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "AUDJPY": {
+    "Symbol": "AUDJPY",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "AUDJPY_L": {
+    "Symbol": "AUDJPY_L",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "#ESX50": {
+    "Symbol": "#ESX50",
+    "Precision": 1,
+    "TradeAmountStep": 1.0
+  },
+  "#ESX50_L": {
+    "Symbol": "#ESX50_L",
+    "Precision": 1,
+    "TradeAmountStep": 1.0
+  },
+  "USDCNH": {
+    "Symbol": "USDCNH",
+    "Precision": 4,
+    "TradeAmountStep": 1000.0
+  },
+  "USDCNH_L": {
+    "Symbol": "USDCNH_L",
+    "Precision": 4,
+    "TradeAmountStep": 1000.0
+  },
+  "AUDNZD": {
+    "Symbol": "AUDNZD",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "AUDNZD_L": {
+    "Symbol": "AUDNZD_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "#UK100": {
+    "Symbol": "#UK100",
+    "Precision": 1,
+    "TradeAmountStep": 1.0
+  },
+  "#UK100_L": {
+    "Symbol": "#UK100_L",
+    "Precision": 1,
+    "TradeAmountStep": 1.0
+  },
+  "USDRUB": {
+    "Symbol": "USDRUB",
+    "Precision": 4,
+    "TradeAmountStep": 1000.0
+  },
+  "USDRUB_L": {
+    "Symbol": "USDRUB_L",
+    "Precision": 4,
+    "TradeAmountStep": 1000.0
+  },
+  "CADJPY": {
+    "Symbol": "CADJPY",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "CADJPY_L": {
+    "Symbol": "CADJPY_L",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "#J225": {
+    "Symbol": "#J225",
+    "Precision": 0,
+    "TradeAmountStep": 100.0
+  },
+  "#J225_L": {
+    "Symbol": "#J225_L",
+    "Precision": 0,
+    "TradeAmountStep": 100.0
+  },
+  "EURRUB": {
+    "Symbol": "EURRUB",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "EURRUB_L": {
+    "Symbol": "EURRUB_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "CHFJPY": {
+    "Symbol": "CHFJPY",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "CHFJPY_L": {
+    "Symbol": "CHFJPY_L",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "EURAUD": {
+    "Symbol": "EURAUD",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "EURAUD_L": {
+    "Symbol": "EURAUD_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "#NDXm": {
+    "Symbol": "#NDXm",
+    "Precision": 1,
+    "TradeAmountStep": 1.0
+  },
+  "#NDXm_L": {
+    "Symbol": "#NDXm_L",
+    "Precision": 1,
+    "TradeAmountStep": 1.0
+  },
+  "EURCAD": {
+    "Symbol": "EURCAD",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "EURCAD_L": {
+    "Symbol": "EURCAD_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "EURCHF": {
+    "Symbol": "EURCHF",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "EURCHF_L": {
+    "Symbol": "EURCHF_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "#SPXm": {
+    "Symbol": "#SPXm",
+    "Precision": 1,
+    "TradeAmountStep": 10.0
+  },
+  "#SPXm_L": {
+    "Symbol": "#SPXm_L",
+    "Precision": 1,
+    "TradeAmountStep": 10.0
+  },
+  "EURGBP": {
+    "Symbol": "EURGBP",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "EURGBP_L": {
+    "Symbol": "EURGBP_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "EURJPY": {
+    "Symbol": "EURJPY",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "EURJPY_L": {
+    "Symbol": "EURJPY_L",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "#WS30m": {
+    "Symbol": "#WS30m",
+    "Precision": 1,
+    "TradeAmountStep": 0.1
+  },
+  "#WS30m_L": {
+    "Symbol": "#WS30m_L",
+    "Precision": 1,
+    "TradeAmountStep": 0.1
+  },
+  "EURNZD": {
+    "Symbol": "EURNZD",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "EURNZD_L": {
+    "Symbol": "EURNZD_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "#HSI": {
+    "Symbol": "#HSI",
+    "Precision": 1,
+    "TradeAmountStep": 1.0
+  },
+  "#HSI_L": {
+    "Symbol": "#HSI_L",
+    "Precision": 1,
+    "TradeAmountStep": 1.0
+  },
+  "GBPAUD": {
+    "Symbol": "GBPAUD",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "GBPAUD_L": {
+    "Symbol": "GBPAUD_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "#HSIUSD": {
+    "Symbol": "#HSIUSD",
+    "Precision": 1,
+    "TradeAmountStep": 0.1
+  },
+  "#HSIUSD_L": {
+    "Symbol": "#HSIUSD_L",
+    "Precision": 1,
+    "TradeAmountStep": 0.1
+  },
+  "GBPCHF": {
+    "Symbol": "GBPCHF",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "GBPCHF_L": {
+    "Symbol": "GBPCHF_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "GBPJPY": {
+    "Symbol": "GBPJPY",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "GBPJPY_L": {
+    "Symbol": "GBPJPY_L",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "NZDJPY": {
+    "Symbol": "NZDJPY",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "NZDJPY_L": {
+    "Symbol": "NZDJPY_L",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "USDDKK": {
+    "Symbol": "USDDKK",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "USDDKK_L": {
+    "Symbol": "USDDKK_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "USDHKD": {
+    "Symbol": "USDHKD",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "USDHKD_L": {
+    "Symbol": "USDHKD_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "USDMXN": {
+    "Symbol": "USDMXN",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "USDMXN_L": {
+    "Symbol": "USDMXN_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "USDNOK": {
+    "Symbol": "USDNOK",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "USDNOK_L": {
+    "Symbol": "USDNOK_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "USDPLN": {
+    "Symbol": "USDPLN",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "USDPLN_L": {
+    "Symbol": "USDPLN_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "USDSEK": {
+    "Symbol": "USDSEK",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "USDSEK_L": {
+    "Symbol": "USDSEK_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "USDSGD": {
+    "Symbol": "USDSGD",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "USDSGD_L": {
+    "Symbol": "USDSGD_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "USDTRY": {
+    "Symbol": "USDTRY",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "USDTRY_L": {
+    "Symbol": "USDTRY_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "EURDKK": {
+    "Symbol": "EURDKK",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "EURDKK_L": {
+    "Symbol": "EURDKK_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "EURHKD": {
+    "Symbol": "EURHKD",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "EURHKD_L": {
+    "Symbol": "EURHKD_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "EURNOK": {
+    "Symbol": "EURNOK",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "EURNOK_L": {
+    "Symbol": "EURNOK_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "EURPLN": {
+    "Symbol": "EURPLN",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "EURPLN_L": {
+    "Symbol": "EURPLN_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "EURSEK": {
+    "Symbol": "EURSEK",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "EURSEK_L": {
+    "Symbol": "EURSEK_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "EURTRY": {
+    "Symbol": "EURTRY",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "EURTRY_L": {
+    "Symbol": "EURTRY_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "GBPCAD": {
+    "Symbol": "GBPCAD",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "GBPCAD_L": {
+    "Symbol": "GBPCAD_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "GBPNZD": {
+    "Symbol": "GBPNZD",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "GBPNZD_L": {
+    "Symbol": "GBPNZD_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "GBPSGD": {
+    "Symbol": "GBPSGD",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "GBPSGD_L": {
+    "Symbol": "GBPSGD_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "CADCHF": {
+    "Symbol": "CADCHF",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "CADCHF_L": {
+    "Symbol": "CADCHF_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "HKDJPY": {
+    "Symbol": "HKDJPY",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "HKDJPY_L": {
+    "Symbol": "HKDJPY_L",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "NOKJPY": {
+    "Symbol": "NOKJPY",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "NOKJPY_L": {
+    "Symbol": "NOKJPY_L",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "NOKSEK": {
+    "Symbol": "NOKSEK",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "NOKSEK_L": {
+    "Symbol": "NOKSEK_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "NZDCAD": {
+    "Symbol": "NZDCAD",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "NZDCAD_L": {
+    "Symbol": "NZDCAD_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "NZDCHF": {
+    "Symbol": "NZDCHF",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "NZDCHF_L": {
+    "Symbol": "NZDCHF_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "NZDSGD": {
+    "Symbol": "NZDSGD",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "NZDSGD_L": {
+    "Symbol": "NZDSGD_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "SGDJPY": {
+    "Symbol": "SGDJPY",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "SGDJPY_L": {
+    "Symbol": "SGDJPY_L",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "BCHUSD": {
+    "Symbol": "BCHUSD",
+    "Precision": 3,
+    "TradeAmountStep": 0.01
+  },
+  "BCHUSD_L": {
+    "Symbol": "BCHUSD_L",
+    "Precision": 3,
+    "TradeAmountStep": 0.01
+  },
+  "BCHBTC": {
+    "Symbol": "BCHBTC",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "BCHBTC_L": {
+    "Symbol": "BCHBTC_L",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "ETHEUR": {
+    "Symbol": "ETHEUR",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "ETHEUR_L": {
+    "Symbol": "ETHEUR_L",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "DSHUSD": {
+    "Symbol": "DSHUSD",
+    "Precision": 3,
+    "TradeAmountStep": 0.01
+  },
+  "DSHUSD_L": {
+    "Symbol": "DSHUSD_L",
+    "Precision": 3,
+    "TradeAmountStep": 0.01
+  },
+  "XRPUSD": {
+    "Symbol": "XRPUSD",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "XRPUSD_L": {
+    "Symbol": "XRPUSD_L",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "XRPEUR": {
+    "Symbol": "XRPEUR",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "XRPEUR_L": {
+    "Symbol": "XRPEUR_L",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "XRPBTC": {
+    "Symbol": "XRPBTC",
+    "Precision": 8,
+    "TradeAmountStep": 0.01
+  },
+  "XRPBTC_L": {
+    "Symbol": "XRPBTC_L",
+    "Precision": 8,
+    "TradeAmountStep": 0.01
+  },
+  "IBKR": {
+    "Symbol": "IBKR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IBKR_L": {
+    "Symbol": "IBKR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AAPL": {
+    "Symbol": "AAPL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AAPL_L": {
+    "Symbol": "AAPL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FB": {
+    "Symbol": "FB",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FB_L": {
+    "Symbol": "FB_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TSLA": {
+    "Symbol": "TSLA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TSLA_L": {
+    "Symbol": "TSLA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AMZN": {
+    "Symbol": "AMZN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AMZN_L": {
+    "Symbol": "AMZN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BABA": {
+    "Symbol": "BABA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BABA_L": {
+    "Symbol": "BABA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GOOGL": {
+    "Symbol": "GOOGL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GOOGL_L": {
+    "Symbol": "GOOGL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MSFT": {
+    "Symbol": "MSFT",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MSFT_L": {
+    "Symbol": "MSFT_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NFLX": {
+    "Symbol": "NFLX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NFLX_L": {
+    "Symbol": "NFLX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MC5USD": {
+    "Symbol": "MC5USD",
+    "Precision": 2,
+    "TradeAmountStep": 0.01
+  },
+  "MC5USD_L": {
+    "Symbol": "MC5USD_L",
+    "Precision": 2,
+    "TradeAmountStep": 0.01
+  },
+  "AMD": {
+    "Symbol": "AMD",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AMD_L": {
+    "Symbol": "AMD_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BIDU": {
+    "Symbol": "BIDU",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BIDU_L": {
+    "Symbol": "BIDU_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BAC": {
+    "Symbol": "BAC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BAC_L": {
+    "Symbol": "BAC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "A": {
+    "Symbol": "A",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "A_L": {
+    "Symbol": "A_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AAL": {
+    "Symbol": "AAL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AAL_L": {
+    "Symbol": "AAL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AAP": {
+    "Symbol": "AAP",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AAP_L": {
+    "Symbol": "AAP_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ABBV": {
+    "Symbol": "ABBV",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ABBV_L": {
+    "Symbol": "ABBV_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ABC": {
+    "Symbol": "ABC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ABC_L": {
+    "Symbol": "ABC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ABT": {
+    "Symbol": "ABT",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ABT_L": {
+    "Symbol": "ABT_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ACN": {
+    "Symbol": "ACN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ACN_L": {
+    "Symbol": "ACN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ADBE": {
+    "Symbol": "ADBE",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ADBE_L": {
+    "Symbol": "ADBE_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ADI": {
+    "Symbol": "ADI",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ADI_L": {
+    "Symbol": "ADI_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ADM": {
+    "Symbol": "ADM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ADM_L": {
+    "Symbol": "ADM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ADP": {
+    "Symbol": "ADP",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ADP_L": {
+    "Symbol": "ADP_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ADS": {
+    "Symbol": "ADS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ADS_L": {
+    "Symbol": "ADS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ADSK": {
+    "Symbol": "ADSK",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ADSK_L": {
+    "Symbol": "ADSK_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AEE": {
+    "Symbol": "AEE",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AEE_L": {
+    "Symbol": "AEE_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AEP": {
+    "Symbol": "AEP",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AEP_L": {
+    "Symbol": "AEP_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AES": {
+    "Symbol": "AES",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AES_L": {
+    "Symbol": "AES_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AFL": {
+    "Symbol": "AFL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AFL_L": {
+    "Symbol": "AFL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AGN": {
+    "Symbol": "AGN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AGN_L": {
+    "Symbol": "AGN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AIG": {
+    "Symbol": "AIG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AIG_L": {
+    "Symbol": "AIG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AIV": {
+    "Symbol": "AIV",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AIV_L": {
+    "Symbol": "AIV_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AIZ": {
+    "Symbol": "AIZ",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AIZ_L": {
+    "Symbol": "AIZ_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AJG": {
+    "Symbol": "AJG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AJG_L": {
+    "Symbol": "AJG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AKAM": {
+    "Symbol": "AKAM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AKAM_L": {
+    "Symbol": "AKAM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ALB": {
+    "Symbol": "ALB",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ALB_L": {
+    "Symbol": "ALB_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ALGN": {
+    "Symbol": "ALGN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ALGN_L": {
+    "Symbol": "ALGN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ALK": {
+    "Symbol": "ALK",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ALK_L": {
+    "Symbol": "ALK_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ALL": {
+    "Symbol": "ALL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ALL_L": {
+    "Symbol": "ALL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ALLE": {
+    "Symbol": "ALLE",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ALLE_L": {
+    "Symbol": "ALLE_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ALXN": {
+    "Symbol": "ALXN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ALXN_L": {
+    "Symbol": "ALXN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AMAT": {
+    "Symbol": "AMAT",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AMAT_L": {
+    "Symbol": "AMAT_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AMCR": {
+    "Symbol": "AMCR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AMCR_L": {
+    "Symbol": "AMCR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AME": {
+    "Symbol": "AME",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AME_L": {
+    "Symbol": "AME_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AMG": {
+    "Symbol": "AMG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AMG_L": {
+    "Symbol": "AMG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AMGN": {
+    "Symbol": "AMGN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AMGN_L": {
+    "Symbol": "AMGN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AMP": {
+    "Symbol": "AMP",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AMP_L": {
+    "Symbol": "AMP_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AMT": {
+    "Symbol": "AMT",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AMT_L": {
+    "Symbol": "AMT_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ANET": {
+    "Symbol": "ANET",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ANET_L": {
+    "Symbol": "ANET_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ANSS": {
+    "Symbol": "ANSS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ANSS_L": {
+    "Symbol": "ANSS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AON": {
+    "Symbol": "AON",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AON_L": {
+    "Symbol": "AON_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AOS": {
+    "Symbol": "AOS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AOS_L": {
+    "Symbol": "AOS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "APA": {
+    "Symbol": "APA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "APA_L": {
+    "Symbol": "APA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "APD": {
+    "Symbol": "APD",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "APD_L": {
+    "Symbol": "APD_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "APH": {
+    "Symbol": "APH",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "APH_L": {
+    "Symbol": "APH_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "APTV": {
+    "Symbol": "APTV",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "APTV_L": {
+    "Symbol": "APTV_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ARE": {
+    "Symbol": "ARE",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ARE_L": {
+    "Symbol": "ARE_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ARNC": {
+    "Symbol": "ARNC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ARNC_L": {
+    "Symbol": "ARNC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ATO": {
+    "Symbol": "ATO",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ATO_L": {
+    "Symbol": "ATO_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ATVI": {
+    "Symbol": "ATVI",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ATVI_L": {
+    "Symbol": "ATVI_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AVB": {
+    "Symbol": "AVB",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AVB_L": {
+    "Symbol": "AVB_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AVGO": {
+    "Symbol": "AVGO",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AVGO_L": {
+    "Symbol": "AVGO_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AVY": {
+    "Symbol": "AVY",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AVY_L": {
+    "Symbol": "AVY_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AWK": {
+    "Symbol": "AWK",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AWK_L": {
+    "Symbol": "AWK_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AXP": {
+    "Symbol": "AXP",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AXP_L": {
+    "Symbol": "AXP_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AZO": {
+    "Symbol": "AZO",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AZO_L": {
+    "Symbol": "AZO_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BA": {
+    "Symbol": "BA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BA_L": {
+    "Symbol": "BA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BAX": {
+    "Symbol": "BAX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BAX_L": {
+    "Symbol": "BAX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BBT": {
+    "Symbol": "BBT",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BBT_L": {
+    "Symbol": "BBT_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BBY": {
+    "Symbol": "BBY",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BBY_L": {
+    "Symbol": "BBY_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BDX": {
+    "Symbol": "BDX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BDX_L": {
+    "Symbol": "BDX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BEN": {
+    "Symbol": "BEN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BEN_L": {
+    "Symbol": "BEN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BF.B": {
+    "Symbol": "BF.B",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BF.B_L": {
+    "Symbol": "BF.B_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BIIB": {
+    "Symbol": "BIIB",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BIIB_L": {
+    "Symbol": "BIIB_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BK": {
+    "Symbol": "BK",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BK_L": {
+    "Symbol": "BK_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BKNG": {
+    "Symbol": "BKNG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BKNG_L": {
+    "Symbol": "BKNG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BLK": {
+    "Symbol": "BLK",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BLK_L": {
+    "Symbol": "BLK_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BLL": {
+    "Symbol": "BLL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BLL_L": {
+    "Symbol": "BLL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BMY": {
+    "Symbol": "BMY",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BMY_L": {
+    "Symbol": "BMY_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BR": {
+    "Symbol": "BR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BR_L": {
+    "Symbol": "BR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BRK.B": {
+    "Symbol": "BRK.B",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BRK.B_L": {
+    "Symbol": "BRK.B_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BSX": {
+    "Symbol": "BSX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BSX_L": {
+    "Symbol": "BSX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BWA": {
+    "Symbol": "BWA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BWA_L": {
+    "Symbol": "BWA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BXP": {
+    "Symbol": "BXP",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BXP_L": {
+    "Symbol": "BXP_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "C": {
+    "Symbol": "C",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "C_L": {
+    "Symbol": "C_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CAG": {
+    "Symbol": "CAG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CAG_L": {
+    "Symbol": "CAG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CAH": {
+    "Symbol": "CAH",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CAH_L": {
+    "Symbol": "CAH_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CAT": {
+    "Symbol": "CAT",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CAT_L": {
+    "Symbol": "CAT_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CB": {
+    "Symbol": "CB",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CB_L": {
+    "Symbol": "CB_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CBOE": {
+    "Symbol": "CBOE",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CBOE_L": {
+    "Symbol": "CBOE_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CBRE": {
+    "Symbol": "CBRE",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CBRE_L": {
+    "Symbol": "CBRE_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CBS": {
+    "Symbol": "CBS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CBS_L": {
+    "Symbol": "CBS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CCI": {
+    "Symbol": "CCI",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CCI_L": {
+    "Symbol": "CCI_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CCL": {
+    "Symbol": "CCL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CCL_L": {
+    "Symbol": "CCL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CDNS": {
+    "Symbol": "CDNS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CDNS_L": {
+    "Symbol": "CDNS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CDW": {
+    "Symbol": "CDW",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CDW_L": {
+    "Symbol": "CDW_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CE": {
+    "Symbol": "CE",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CE_L": {
+    "Symbol": "CE_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CELG": {
+    "Symbol": "CELG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CELG_L": {
+    "Symbol": "CELG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CF": {
+    "Symbol": "CF",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CF_L": {
+    "Symbol": "CF_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CFG": {
+    "Symbol": "CFG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CFG_L": {
+    "Symbol": "CFG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CHD": {
+    "Symbol": "CHD",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CHD_L": {
+    "Symbol": "CHD_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CHRW": {
+    "Symbol": "CHRW",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CHRW_L": {
+    "Symbol": "CHRW_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CHTR": {
+    "Symbol": "CHTR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CHTR_L": {
+    "Symbol": "CHTR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CI": {
+    "Symbol": "CI",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CI_L": {
+    "Symbol": "CI_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CINF": {
+    "Symbol": "CINF",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CINF_L": {
+    "Symbol": "CINF_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CL": {
+    "Symbol": "CL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CL_L": {
+    "Symbol": "CL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CLX": {
+    "Symbol": "CLX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CLX_L": {
+    "Symbol": "CLX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CMA": {
+    "Symbol": "CMA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CMA_L": {
+    "Symbol": "CMA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CMCSA": {
+    "Symbol": "CMCSA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CMCSA_L": {
+    "Symbol": "CMCSA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CME": {
+    "Symbol": "CME",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CME_L": {
+    "Symbol": "CME_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CMG": {
+    "Symbol": "CMG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CMG_L": {
+    "Symbol": "CMG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CMI": {
+    "Symbol": "CMI",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CMI_L": {
+    "Symbol": "CMI_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CMS": {
+    "Symbol": "CMS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CMS_L": {
+    "Symbol": "CMS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CNC": {
+    "Symbol": "CNC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CNC_L": {
+    "Symbol": "CNC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CNP": {
+    "Symbol": "CNP",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CNP_L": {
+    "Symbol": "CNP_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "COF": {
+    "Symbol": "COF",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "COF_L": {
+    "Symbol": "COF_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "COG": {
+    "Symbol": "COG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "COG_L": {
+    "Symbol": "COG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "COO": {
+    "Symbol": "COO",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "COO_L": {
+    "Symbol": "COO_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "COP": {
+    "Symbol": "COP",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "COP_L": {
+    "Symbol": "COP_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "COST": {
+    "Symbol": "COST",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "COST_L": {
+    "Symbol": "COST_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "COTY": {
+    "Symbol": "COTY",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "COTY_L": {
+    "Symbol": "COTY_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CPB": {
+    "Symbol": "CPB",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CPB_L": {
+    "Symbol": "CPB_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CPRI": {
+    "Symbol": "CPRI",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CPRI_L": {
+    "Symbol": "CPRI_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CPRT": {
+    "Symbol": "CPRT",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CPRT_L": {
+    "Symbol": "CPRT_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CRM": {
+    "Symbol": "CRM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CRM_L": {
+    "Symbol": "CRM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CSCO": {
+    "Symbol": "CSCO",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CSCO_L": {
+    "Symbol": "CSCO_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CSX": {
+    "Symbol": "CSX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CSX_L": {
+    "Symbol": "CSX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CTAS": {
+    "Symbol": "CTAS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CTAS_L": {
+    "Symbol": "CTAS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CTL": {
+    "Symbol": "CTL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CTL_L": {
+    "Symbol": "CTL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CTSH": {
+    "Symbol": "CTSH",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CTSH_L": {
+    "Symbol": "CTSH_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CTVA": {
+    "Symbol": "CTVA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CTVA_L": {
+    "Symbol": "CTVA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CVS": {
+    "Symbol": "CVS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CVS_L": {
+    "Symbol": "CVS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CVX": {
+    "Symbol": "CVX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CVX_L": {
+    "Symbol": "CVX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CXO": {
+    "Symbol": "CXO",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CXO_L": {
+    "Symbol": "CXO_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "D": {
+    "Symbol": "D",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "D_L": {
+    "Symbol": "D_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DAL": {
+    "Symbol": "DAL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DAL_L": {
+    "Symbol": "DAL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DD": {
+    "Symbol": "DD",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DD_L": {
+    "Symbol": "DD_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DE": {
+    "Symbol": "DE",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DE_L": {
+    "Symbol": "DE_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DFS": {
+    "Symbol": "DFS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DFS_L": {
+    "Symbol": "DFS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DG": {
+    "Symbol": "DG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DG_L": {
+    "Symbol": "DG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DGX": {
+    "Symbol": "DGX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DGX_L": {
+    "Symbol": "DGX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DHI": {
+    "Symbol": "DHI",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DHI_L": {
+    "Symbol": "DHI_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DHR": {
+    "Symbol": "DHR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DHR_L": {
+    "Symbol": "DHR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DIS": {
+    "Symbol": "DIS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DIS_L": {
+    "Symbol": "DIS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DISH": {
+    "Symbol": "DISH",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DISH_L": {
+    "Symbol": "DISH_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DLR": {
+    "Symbol": "DLR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DLR_L": {
+    "Symbol": "DLR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DLTR": {
+    "Symbol": "DLTR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DLTR_L": {
+    "Symbol": "DLTR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DOV": {
+    "Symbol": "DOV",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DOV_L": {
+    "Symbol": "DOV_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DOW": {
+    "Symbol": "DOW",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DOW_L": {
+    "Symbol": "DOW_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DRI": {
+    "Symbol": "DRI",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DRI_L": {
+    "Symbol": "DRI_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DTE": {
+    "Symbol": "DTE",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DTE_L": {
+    "Symbol": "DTE_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DUK": {
+    "Symbol": "DUK",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DUK_L": {
+    "Symbol": "DUK_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DVA": {
+    "Symbol": "DVA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DVA_L": {
+    "Symbol": "DVA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DVN": {
+    "Symbol": "DVN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DVN_L": {
+    "Symbol": "DVN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DXC": {
+    "Symbol": "DXC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DXC_L": {
+    "Symbol": "DXC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EA": {
+    "Symbol": "EA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EA_L": {
+    "Symbol": "EA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EBAY": {
+    "Symbol": "EBAY",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EBAY_L": {
+    "Symbol": "EBAY_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ECL": {
+    "Symbol": "ECL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ECL_L": {
+    "Symbol": "ECL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ED": {
+    "Symbol": "ED",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ED_L": {
+    "Symbol": "ED_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EFX": {
+    "Symbol": "EFX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EFX_L": {
+    "Symbol": "EFX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EIX": {
+    "Symbol": "EIX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EIX_L": {
+    "Symbol": "EIX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EL": {
+    "Symbol": "EL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EL_L": {
+    "Symbol": "EL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EMN": {
+    "Symbol": "EMN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EMN_L": {
+    "Symbol": "EMN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EMR": {
+    "Symbol": "EMR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EMR_L": {
+    "Symbol": "EMR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EOG": {
+    "Symbol": "EOG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EOG_L": {
+    "Symbol": "EOG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EQIX": {
+    "Symbol": "EQIX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EQIX_L": {
+    "Symbol": "EQIX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EQR": {
+    "Symbol": "EQR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EQR_L": {
+    "Symbol": "EQR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ES": {
+    "Symbol": "ES",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ES_L": {
+    "Symbol": "ES_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ESS": {
+    "Symbol": "ESS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ESS_L": {
+    "Symbol": "ESS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ETFC": {
+    "Symbol": "ETFC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ETFC_L": {
+    "Symbol": "ETFC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ETN": {
+    "Symbol": "ETN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ETN_L": {
+    "Symbol": "ETN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ETR": {
+    "Symbol": "ETR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ETR_L": {
+    "Symbol": "ETR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EVRG": {
+    "Symbol": "EVRG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EVRG_L": {
+    "Symbol": "EVRG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EW": {
+    "Symbol": "EW",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EW_L": {
+    "Symbol": "EW_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EXC": {
+    "Symbol": "EXC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EXC_L": {
+    "Symbol": "EXC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EXPD": {
+    "Symbol": "EXPD",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EXPD_L": {
+    "Symbol": "EXPD_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EXPE": {
+    "Symbol": "EXPE",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EXPE_L": {
+    "Symbol": "EXPE_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EXR": {
+    "Symbol": "EXR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EXR_L": {
+    "Symbol": "EXR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "F": {
+    "Symbol": "F",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "F_L": {
+    "Symbol": "F_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FANG": {
+    "Symbol": "FANG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FANG_L": {
+    "Symbol": "FANG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FAST": {
+    "Symbol": "FAST",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FAST_L": {
+    "Symbol": "FAST_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FCX": {
+    "Symbol": "FCX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FCX_L": {
+    "Symbol": "FCX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FDX": {
+    "Symbol": "FDX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FDX_L": {
+    "Symbol": "FDX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FE": {
+    "Symbol": "FE",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FE_L": {
+    "Symbol": "FE_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FFIV": {
+    "Symbol": "FFIV",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FFIV_L": {
+    "Symbol": "FFIV_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FIS": {
+    "Symbol": "FIS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FIS_L": {
+    "Symbol": "FIS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FISV": {
+    "Symbol": "FISV",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FISV_L": {
+    "Symbol": "FISV_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FITB": {
+    "Symbol": "FITB",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FITB_L": {
+    "Symbol": "FITB_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FLIR": {
+    "Symbol": "FLIR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FLIR_L": {
+    "Symbol": "FLIR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FLS": {
+    "Symbol": "FLS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FLS_L": {
+    "Symbol": "FLS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FLT": {
+    "Symbol": "FLT",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FLT_L": {
+    "Symbol": "FLT_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FMC": {
+    "Symbol": "FMC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FMC_L": {
+    "Symbol": "FMC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FOXA": {
+    "Symbol": "FOXA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FOXA_L": {
+    "Symbol": "FOXA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FRC": {
+    "Symbol": "FRC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FRC_L": {
+    "Symbol": "FRC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FRT": {
+    "Symbol": "FRT",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FRT_L": {
+    "Symbol": "FRT_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FTI": {
+    "Symbol": "FTI",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FTI_L": {
+    "Symbol": "FTI_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FTNT": {
+    "Symbol": "FTNT",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FTNT_L": {
+    "Symbol": "FTNT_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FTV": {
+    "Symbol": "FTV",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FTV_L": {
+    "Symbol": "FTV_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GD": {
+    "Symbol": "GD",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GD_L": {
+    "Symbol": "GD_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GE": {
+    "Symbol": "GE",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GE_L": {
+    "Symbol": "GE_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GILD": {
+    "Symbol": "GILD",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GILD_L": {
+    "Symbol": "GILD_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GIS": {
+    "Symbol": "GIS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GIS_L": {
+    "Symbol": "GIS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GL": {
+    "Symbol": "GL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GL_L": {
+    "Symbol": "GL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GLW": {
+    "Symbol": "GLW",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GLW_L": {
+    "Symbol": "GLW_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GM": {
+    "Symbol": "GM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GM_L": {
+    "Symbol": "GM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GPC": {
+    "Symbol": "GPC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GPC_L": {
+    "Symbol": "GPC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GPN": {
+    "Symbol": "GPN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GPN_L": {
+    "Symbol": "GPN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GPS": {
+    "Symbol": "GPS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GPS_L": {
+    "Symbol": "GPS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GRMN": {
+    "Symbol": "GRMN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GRMN_L": {
+    "Symbol": "GRMN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GS": {
+    "Symbol": "GS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GS_L": {
+    "Symbol": "GS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GWW": {
+    "Symbol": "GWW",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GWW_L": {
+    "Symbol": "GWW_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HAL": {
+    "Symbol": "HAL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HAL_L": {
+    "Symbol": "HAL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HAS": {
+    "Symbol": "HAS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HAS_L": {
+    "Symbol": "HAS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HBAN": {
+    "Symbol": "HBAN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HBAN_L": {
+    "Symbol": "HBAN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HBI": {
+    "Symbol": "HBI",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HBI_L": {
+    "Symbol": "HBI_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HCA": {
+    "Symbol": "HCA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HCA_L": {
+    "Symbol": "HCA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HCP": {
+    "Symbol": "HCP",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HCP_L": {
+    "Symbol": "HCP_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HD": {
+    "Symbol": "HD",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HD_L": {
+    "Symbol": "HD_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HES": {
+    "Symbol": "HES",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HES_L": {
+    "Symbol": "HES_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HFC": {
+    "Symbol": "HFC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HFC_L": {
+    "Symbol": "HFC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HIG": {
+    "Symbol": "HIG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HIG_L": {
+    "Symbol": "HIG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HII": {
+    "Symbol": "HII",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HII_L": {
+    "Symbol": "HII_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HLT": {
+    "Symbol": "HLT",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HLT_L": {
+    "Symbol": "HLT_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HOG": {
+    "Symbol": "HOG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HOG_L": {
+    "Symbol": "HOG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HOLX": {
+    "Symbol": "HOLX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HOLX_L": {
+    "Symbol": "HOLX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HON": {
+    "Symbol": "HON",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HON_L": {
+    "Symbol": "HON_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HP": {
+    "Symbol": "HP",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HP_L": {
+    "Symbol": "HP_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HPE": {
+    "Symbol": "HPE",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HPE_L": {
+    "Symbol": "HPE_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HPQ": {
+    "Symbol": "HPQ",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HPQ_L": {
+    "Symbol": "HPQ_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HRB": {
+    "Symbol": "HRB",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HRB_L": {
+    "Symbol": "HRB_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HRL": {
+    "Symbol": "HRL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HRL_L": {
+    "Symbol": "HRL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HSIC": {
+    "Symbol": "HSIC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HSIC_L": {
+    "Symbol": "HSIC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HST": {
+    "Symbol": "HST",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HST_L": {
+    "Symbol": "HST_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HSY": {
+    "Symbol": "HSY",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HSY_L": {
+    "Symbol": "HSY_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HUM": {
+    "Symbol": "HUM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "HUM_L": {
+    "Symbol": "HUM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IBM": {
+    "Symbol": "IBM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IBM_L": {
+    "Symbol": "IBM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ICE": {
+    "Symbol": "ICE",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ICE_L": {
+    "Symbol": "ICE_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IDXX": {
+    "Symbol": "IDXX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IDXX_L": {
+    "Symbol": "IDXX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IEX": {
+    "Symbol": "IEX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IEX_L": {
+    "Symbol": "IEX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IFF": {
+    "Symbol": "IFF",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IFF_L": {
+    "Symbol": "IFF_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ILMN": {
+    "Symbol": "ILMN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ILMN_L": {
+    "Symbol": "ILMN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "INCY": {
+    "Symbol": "INCY",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "INCY_L": {
+    "Symbol": "INCY_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "INTC": {
+    "Symbol": "INTC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "INTC_L": {
+    "Symbol": "INTC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "INTU": {
+    "Symbol": "INTU",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "INTU_L": {
+    "Symbol": "INTU_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IP": {
+    "Symbol": "IP",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IP_L": {
+    "Symbol": "IP_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IPG": {
+    "Symbol": "IPG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IPG_L": {
+    "Symbol": "IPG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IPGP": {
+    "Symbol": "IPGP",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IPGP_L": {
+    "Symbol": "IPGP_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IQV": {
+    "Symbol": "IQV",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IQV_L": {
+    "Symbol": "IQV_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IR": {
+    "Symbol": "IR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IR_L": {
+    "Symbol": "IR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IRM": {
+    "Symbol": "IRM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IRM_L": {
+    "Symbol": "IRM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ISRG": {
+    "Symbol": "ISRG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ISRG_L": {
+    "Symbol": "ISRG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IT": {
+    "Symbol": "IT",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IT_L": {
+    "Symbol": "IT_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ITW": {
+    "Symbol": "ITW",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ITW_L": {
+    "Symbol": "ITW_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IVZ": {
+    "Symbol": "IVZ",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IVZ_L": {
+    "Symbol": "IVZ_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "JBHT": {
+    "Symbol": "JBHT",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "JBHT_L": {
+    "Symbol": "JBHT_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "JCI": {
+    "Symbol": "JCI",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "JCI_L": {
+    "Symbol": "JCI_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "JEC": {
+    "Symbol": "JEC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "JEC_L": {
+    "Symbol": "JEC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "JEF": {
+    "Symbol": "JEF",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "JEF_L": {
+    "Symbol": "JEF_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "JKHY": {
+    "Symbol": "JKHY",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "JKHY_L": {
+    "Symbol": "JKHY_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "JNJ": {
+    "Symbol": "JNJ",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "JNJ_L": {
+    "Symbol": "JNJ_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "JNPR": {
+    "Symbol": "JNPR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "JNPR_L": {
+    "Symbol": "JNPR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "JPM": {
+    "Symbol": "JPM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "JPM_L": {
+    "Symbol": "JPM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "JWN": {
+    "Symbol": "JWN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "JWN_L": {
+    "Symbol": "JWN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "K": {
+    "Symbol": "K",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "K_L": {
+    "Symbol": "K_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KEY": {
+    "Symbol": "KEY",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KEY_L": {
+    "Symbol": "KEY_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KEYS": {
+    "Symbol": "KEYS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KEYS_L": {
+    "Symbol": "KEYS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KHC": {
+    "Symbol": "KHC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KHC_L": {
+    "Symbol": "KHC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KIM": {
+    "Symbol": "KIM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KIM_L": {
+    "Symbol": "KIM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KLAC": {
+    "Symbol": "KLAC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KLAC_L": {
+    "Symbol": "KLAC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KMB": {
+    "Symbol": "KMB",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KMB_L": {
+    "Symbol": "KMB_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KMI": {
+    "Symbol": "KMI",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KMI_L": {
+    "Symbol": "KMI_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KMX": {
+    "Symbol": "KMX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KMX_L": {
+    "Symbol": "KMX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KO": {
+    "Symbol": "KO",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KO_L": {
+    "Symbol": "KO_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KR": {
+    "Symbol": "KR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KR_L": {
+    "Symbol": "KR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KSS": {
+    "Symbol": "KSS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KSS_L": {
+    "Symbol": "KSS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KSU": {
+    "Symbol": "KSU",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "KSU_L": {
+    "Symbol": "KSU_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "L": {
+    "Symbol": "L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "L_L": {
+    "Symbol": "L_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LB": {
+    "Symbol": "LB",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LB_L": {
+    "Symbol": "LB_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LDOS": {
+    "Symbol": "LDOS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LDOS_L": {
+    "Symbol": "LDOS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LEG": {
+    "Symbol": "LEG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LEG_L": {
+    "Symbol": "LEG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LEN": {
+    "Symbol": "LEN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LEN_L": {
+    "Symbol": "LEN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LH": {
+    "Symbol": "LH",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LH_L": {
+    "Symbol": "LH_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LHX": {
+    "Symbol": "LHX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LHX_L": {
+    "Symbol": "LHX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LIN": {
+    "Symbol": "LIN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LIN_L": {
+    "Symbol": "LIN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LKQ": {
+    "Symbol": "LKQ",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LKQ_L": {
+    "Symbol": "LKQ_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LLY": {
+    "Symbol": "LLY",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LLY_L": {
+    "Symbol": "LLY_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LMT": {
+    "Symbol": "LMT",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LMT_L": {
+    "Symbol": "LMT_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LNC": {
+    "Symbol": "LNC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LNC_L": {
+    "Symbol": "LNC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LNT": {
+    "Symbol": "LNT",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LNT_L": {
+    "Symbol": "LNT_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LOW": {
+    "Symbol": "LOW",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LOW_L": {
+    "Symbol": "LOW_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LRCX": {
+    "Symbol": "LRCX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LRCX_L": {
+    "Symbol": "LRCX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LUV": {
+    "Symbol": "LUV",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LUV_L": {
+    "Symbol": "LUV_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LW": {
+    "Symbol": "LW",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LW_L": {
+    "Symbol": "LW_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LYB": {
+    "Symbol": "LYB",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LYB_L": {
+    "Symbol": "LYB_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "M": {
+    "Symbol": "M",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "M_L": {
+    "Symbol": "M_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MA": {
+    "Symbol": "MA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MA_L": {
+    "Symbol": "MA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MAA": {
+    "Symbol": "MAA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MAA_L": {
+    "Symbol": "MAA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MAC": {
+    "Symbol": "MAC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MAC_L": {
+    "Symbol": "MAC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MAR": {
+    "Symbol": "MAR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MAR_L": {
+    "Symbol": "MAR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MAS": {
+    "Symbol": "MAS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MAS_L": {
+    "Symbol": "MAS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MCD": {
+    "Symbol": "MCD",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MCD_L": {
+    "Symbol": "MCD_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MCHP": {
+    "Symbol": "MCHP",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MCHP_L": {
+    "Symbol": "MCHP_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MCK": {
+    "Symbol": "MCK",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MCK_L": {
+    "Symbol": "MCK_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MCO": {
+    "Symbol": "MCO",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MCO_L": {
+    "Symbol": "MCO_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MDLZ": {
+    "Symbol": "MDLZ",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MDLZ_L": {
+    "Symbol": "MDLZ_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MDT": {
+    "Symbol": "MDT",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MDT_L": {
+    "Symbol": "MDT_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MET": {
+    "Symbol": "MET",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MET_L": {
+    "Symbol": "MET_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MGM": {
+    "Symbol": "MGM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MGM_L": {
+    "Symbol": "MGM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MHK": {
+    "Symbol": "MHK",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MHK_L": {
+    "Symbol": "MHK_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MKC": {
+    "Symbol": "MKC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MKC_L": {
+    "Symbol": "MKC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MKTX": {
+    "Symbol": "MKTX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MKTX_L": {
+    "Symbol": "MKTX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MLM": {
+    "Symbol": "MLM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MLM_L": {
+    "Symbol": "MLM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MMC": {
+    "Symbol": "MMC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MMC_L": {
+    "Symbol": "MMC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MMM": {
+    "Symbol": "MMM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MMM_L": {
+    "Symbol": "MMM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MNST": {
+    "Symbol": "MNST",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MNST_L": {
+    "Symbol": "MNST_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MO": {
+    "Symbol": "MO",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MO_L": {
+    "Symbol": "MO_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MOS": {
+    "Symbol": "MOS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MOS_L": {
+    "Symbol": "MOS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MPC": {
+    "Symbol": "MPC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MPC_L": {
+    "Symbol": "MPC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MRK": {
+    "Symbol": "MRK",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MRK_L": {
+    "Symbol": "MRK_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MRO": {
+    "Symbol": "MRO",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MRO_L": {
+    "Symbol": "MRO_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MS": {
+    "Symbol": "MS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MS_L": {
+    "Symbol": "MS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MSCI": {
+    "Symbol": "MSCI",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MSCI_L": {
+    "Symbol": "MSCI_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MSI": {
+    "Symbol": "MSI",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MSI_L": {
+    "Symbol": "MSI_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MTB": {
+    "Symbol": "MTB",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MTB_L": {
+    "Symbol": "MTB_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MTD": {
+    "Symbol": "MTD",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MTD_L": {
+    "Symbol": "MTD_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MU": {
+    "Symbol": "MU",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MU_L": {
+    "Symbol": "MU_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MXIM": {
+    "Symbol": "MXIM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MXIM_L": {
+    "Symbol": "MXIM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MYL": {
+    "Symbol": "MYL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MYL_L": {
+    "Symbol": "MYL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NBL": {
+    "Symbol": "NBL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NBL_L": {
+    "Symbol": "NBL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NCLH": {
+    "Symbol": "NCLH",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NCLH_L": {
+    "Symbol": "NCLH_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NDAQ": {
+    "Symbol": "NDAQ",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NDAQ_L": {
+    "Symbol": "NDAQ_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NEE": {
+    "Symbol": "NEE",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NEE_L": {
+    "Symbol": "NEE_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NEM": {
+    "Symbol": "NEM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NEM_L": {
+    "Symbol": "NEM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NI": {
+    "Symbol": "NI",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NI_L": {
+    "Symbol": "NI_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NKE": {
+    "Symbol": "NKE",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NKE_L": {
+    "Symbol": "NKE_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NKTR": {
+    "Symbol": "NKTR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NKTR_L": {
+    "Symbol": "NKTR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NLSN": {
+    "Symbol": "NLSN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NLSN_L": {
+    "Symbol": "NLSN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NOC": {
+    "Symbol": "NOC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NOC_L": {
+    "Symbol": "NOC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NOV": {
+    "Symbol": "NOV",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NOV_L": {
+    "Symbol": "NOV_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NRG": {
+    "Symbol": "NRG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NRG_L": {
+    "Symbol": "NRG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NSC": {
+    "Symbol": "NSC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NSC_L": {
+    "Symbol": "NSC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NTAP": {
+    "Symbol": "NTAP",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NTAP_L": {
+    "Symbol": "NTAP_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NTRS": {
+    "Symbol": "NTRS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NTRS_L": {
+    "Symbol": "NTRS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NUE": {
+    "Symbol": "NUE",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NUE_L": {
+    "Symbol": "NUE_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NVDA": {
+    "Symbol": "NVDA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NVDA_L": {
+    "Symbol": "NVDA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NWL": {
+    "Symbol": "NWL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NWL_L": {
+    "Symbol": "NWL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NWSA": {
+    "Symbol": "NWSA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NWSA_L": {
+    "Symbol": "NWSA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "O": {
+    "Symbol": "O",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "O_L": {
+    "Symbol": "O_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "OKE": {
+    "Symbol": "OKE",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "OKE_L": {
+    "Symbol": "OKE_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "OMC": {
+    "Symbol": "OMC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "OMC_L": {
+    "Symbol": "OMC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ORCL": {
+    "Symbol": "ORCL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ORCL_L": {
+    "Symbol": "ORCL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ORLY": {
+    "Symbol": "ORLY",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ORLY_L": {
+    "Symbol": "ORLY_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "OXY": {
+    "Symbol": "OXY",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "OXY_L": {
+    "Symbol": "OXY_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PAYX": {
+    "Symbol": "PAYX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PAYX_L": {
+    "Symbol": "PAYX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PCAR": {
+    "Symbol": "PCAR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PCAR_L": {
+    "Symbol": "PCAR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PEG": {
+    "Symbol": "PEG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PEG_L": {
+    "Symbol": "PEG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PEP": {
+    "Symbol": "PEP",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PEP_L": {
+    "Symbol": "PEP_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PFE": {
+    "Symbol": "PFE",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PFE_L": {
+    "Symbol": "PFE_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PFG": {
+    "Symbol": "PFG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PFG_L": {
+    "Symbol": "PFG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PG": {
+    "Symbol": "PG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PG_L": {
+    "Symbol": "PG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PGR": {
+    "Symbol": "PGR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PGR_L": {
+    "Symbol": "PGR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PH": {
+    "Symbol": "PH",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PH_L": {
+    "Symbol": "PH_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PHM": {
+    "Symbol": "PHM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PHM_L": {
+    "Symbol": "PHM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PKG": {
+    "Symbol": "PKG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PKG_L": {
+    "Symbol": "PKG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PKI": {
+    "Symbol": "PKI",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PKI_L": {
+    "Symbol": "PKI_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PLD": {
+    "Symbol": "PLD",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PLD_L": {
+    "Symbol": "PLD_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PM": {
+    "Symbol": "PM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PM_L": {
+    "Symbol": "PM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PNC": {
+    "Symbol": "PNC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PNC_L": {
+    "Symbol": "PNC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PNR": {
+    "Symbol": "PNR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PNR_L": {
+    "Symbol": "PNR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PNW": {
+    "Symbol": "PNW",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PNW_L": {
+    "Symbol": "PNW_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PPG": {
+    "Symbol": "PPG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PPG_L": {
+    "Symbol": "PPG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PPL": {
+    "Symbol": "PPL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PPL_L": {
+    "Symbol": "PPL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PRGO": {
+    "Symbol": "PRGO",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PRGO_L": {
+    "Symbol": "PRGO_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PRU": {
+    "Symbol": "PRU",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PRU_L": {
+    "Symbol": "PRU_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PSA": {
+    "Symbol": "PSA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PSA_L": {
+    "Symbol": "PSA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PSX": {
+    "Symbol": "PSX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PSX_L": {
+    "Symbol": "PSX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PVH": {
+    "Symbol": "PVH",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PVH_L": {
+    "Symbol": "PVH_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PWR": {
+    "Symbol": "PWR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PWR_L": {
+    "Symbol": "PWR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PXD": {
+    "Symbol": "PXD",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PXD_L": {
+    "Symbol": "PXD_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PYPL": {
+    "Symbol": "PYPL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PYPL_L": {
+    "Symbol": "PYPL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "QCOM": {
+    "Symbol": "QCOM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "QCOM_L": {
+    "Symbol": "QCOM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "QRVO": {
+    "Symbol": "QRVO",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "QRVO_L": {
+    "Symbol": "QRVO_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "RCL": {
+    "Symbol": "RCL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "RCL_L": {
+    "Symbol": "RCL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "RE": {
+    "Symbol": "RE",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "RE_L": {
+    "Symbol": "RE_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "REG": {
+    "Symbol": "REG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "REG_L": {
+    "Symbol": "REG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "REGN": {
+    "Symbol": "REGN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "REGN_L": {
+    "Symbol": "REGN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "RF": {
+    "Symbol": "RF",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "RF_L": {
+    "Symbol": "RF_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "RHI": {
+    "Symbol": "RHI",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "RHI_L": {
+    "Symbol": "RHI_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "RJF": {
+    "Symbol": "RJF",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "RJF_L": {
+    "Symbol": "RJF_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "RL": {
+    "Symbol": "RL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "RL_L": {
+    "Symbol": "RL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "RMD": {
+    "Symbol": "RMD",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "RMD_L": {
+    "Symbol": "RMD_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ROK": {
+    "Symbol": "ROK",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ROK_L": {
+    "Symbol": "ROK_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ROL": {
+    "Symbol": "ROL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ROL_L": {
+    "Symbol": "ROL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ROP": {
+    "Symbol": "ROP",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ROP_L": {
+    "Symbol": "ROP_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ROST": {
+    "Symbol": "ROST",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ROST_L": {
+    "Symbol": "ROST_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "RSG": {
+    "Symbol": "RSG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "RSG_L": {
+    "Symbol": "RSG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "RTN": {
+    "Symbol": "RTN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "RTN_L": {
+    "Symbol": "RTN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SBAC": {
+    "Symbol": "SBAC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SBAC_L": {
+    "Symbol": "SBAC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SBUX": {
+    "Symbol": "SBUX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SBUX_L": {
+    "Symbol": "SBUX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SCHW": {
+    "Symbol": "SCHW",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SCHW_L": {
+    "Symbol": "SCHW_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SEE": {
+    "Symbol": "SEE",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SEE_L": {
+    "Symbol": "SEE_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SHW": {
+    "Symbol": "SHW",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SHW_L": {
+    "Symbol": "SHW_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SIVB": {
+    "Symbol": "SIVB",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SIVB_L": {
+    "Symbol": "SIVB_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SJM": {
+    "Symbol": "SJM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SJM_L": {
+    "Symbol": "SJM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SLB": {
+    "Symbol": "SLB",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SLB_L": {
+    "Symbol": "SLB_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SLG": {
+    "Symbol": "SLG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SLG_L": {
+    "Symbol": "SLG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SNA": {
+    "Symbol": "SNA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SNA_L": {
+    "Symbol": "SNA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SNPS": {
+    "Symbol": "SNPS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SNPS_L": {
+    "Symbol": "SNPS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SO": {
+    "Symbol": "SO",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SO_L": {
+    "Symbol": "SO_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SPG": {
+    "Symbol": "SPG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SPG_L": {
+    "Symbol": "SPG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SPGI": {
+    "Symbol": "SPGI",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SPGI_L": {
+    "Symbol": "SPGI_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SRE": {
+    "Symbol": "SRE",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SRE_L": {
+    "Symbol": "SRE_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "STI": {
+    "Symbol": "STI",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "STI_L": {
+    "Symbol": "STI_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "STT": {
+    "Symbol": "STT",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "STT_L": {
+    "Symbol": "STT_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "STX": {
+    "Symbol": "STX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "STX_L": {
+    "Symbol": "STX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "STZ": {
+    "Symbol": "STZ",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "STZ_L": {
+    "Symbol": "STZ_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SWK": {
+    "Symbol": "SWK",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SWK_L": {
+    "Symbol": "SWK_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SWKS": {
+    "Symbol": "SWKS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SWKS_L": {
+    "Symbol": "SWKS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SYF": {
+    "Symbol": "SYF",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SYF_L": {
+    "Symbol": "SYF_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SYK": {
+    "Symbol": "SYK",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SYK_L": {
+    "Symbol": "SYK_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SYMC": {
+    "Symbol": "SYMC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SYMC_L": {
+    "Symbol": "SYMC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SYY": {
+    "Symbol": "SYY",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SYY_L": {
+    "Symbol": "SYY_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "T": {
+    "Symbol": "T",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "T_L": {
+    "Symbol": "T_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TAP": {
+    "Symbol": "TAP",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TAP_L": {
+    "Symbol": "TAP_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TDG": {
+    "Symbol": "TDG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TDG_L": {
+    "Symbol": "TDG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TEL": {
+    "Symbol": "TEL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TEL_L": {
+    "Symbol": "TEL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TFX": {
+    "Symbol": "TFX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TFX_L": {
+    "Symbol": "TFX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TGT": {
+    "Symbol": "TGT",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TGT_L": {
+    "Symbol": "TGT_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TIF": {
+    "Symbol": "TIF",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TIF_L": {
+    "Symbol": "TIF_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TJX": {
+    "Symbol": "TJX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TJX_L": {
+    "Symbol": "TJX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TMO": {
+    "Symbol": "TMO",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TMO_L": {
+    "Symbol": "TMO_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TMUS": {
+    "Symbol": "TMUS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TMUS_L": {
+    "Symbol": "TMUS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TPR": {
+    "Symbol": "TPR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TPR_L": {
+    "Symbol": "TPR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TRIP": {
+    "Symbol": "TRIP",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TRIP_L": {
+    "Symbol": "TRIP_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TROW": {
+    "Symbol": "TROW",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TROW_L": {
+    "Symbol": "TROW_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TRV": {
+    "Symbol": "TRV",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TRV_L": {
+    "Symbol": "TRV_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TSCO": {
+    "Symbol": "TSCO",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TSCO_L": {
+    "Symbol": "TSCO_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TSM": {
+    "Symbol": "TSM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TSM_L": {
+    "Symbol": "TSM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TSN": {
+    "Symbol": "TSN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TSN_L": {
+    "Symbol": "TSN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TTWO": {
+    "Symbol": "TTWO",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TTWO_L": {
+    "Symbol": "TTWO_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TXN": {
+    "Symbol": "TXN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TXN_L": {
+    "Symbol": "TXN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TXT": {
+    "Symbol": "TXT",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TXT_L": {
+    "Symbol": "TXT_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "UAA": {
+    "Symbol": "UAA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "UAA_L": {
+    "Symbol": "UAA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "UAL": {
+    "Symbol": "UAL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "UAL_L": {
+    "Symbol": "UAL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "UDR": {
+    "Symbol": "UDR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "UDR_L": {
+    "Symbol": "UDR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "UHS": {
+    "Symbol": "UHS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "UHS_L": {
+    "Symbol": "UHS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ULTA": {
+    "Symbol": "ULTA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ULTA_L": {
+    "Symbol": "ULTA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "UNH": {
+    "Symbol": "UNH",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "UNH_L": {
+    "Symbol": "UNH_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "UNM": {
+    "Symbol": "UNM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "UNM_L": {
+    "Symbol": "UNM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "UNP": {
+    "Symbol": "UNP",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "UNP_L": {
+    "Symbol": "UNP_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "UPS": {
+    "Symbol": "UPS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "UPS_L": {
+    "Symbol": "UPS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "URI": {
+    "Symbol": "URI",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "URI_L": {
+    "Symbol": "URI_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "USB": {
+    "Symbol": "USB",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "USB_L": {
+    "Symbol": "USB_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "UTX": {
+    "Symbol": "UTX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "UTX_L": {
+    "Symbol": "UTX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "V": {
+    "Symbol": "V",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "V_L": {
+    "Symbol": "V_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "VAR": {
+    "Symbol": "VAR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "VAR_L": {
+    "Symbol": "VAR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "VFC": {
+    "Symbol": "VFC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "VFC_L": {
+    "Symbol": "VFC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "VIAB": {
+    "Symbol": "VIAB",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "VIAB_L": {
+    "Symbol": "VIAB_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "VLO": {
+    "Symbol": "VLO",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "VLO_L": {
+    "Symbol": "VLO_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "VMC": {
+    "Symbol": "VMC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "VMC_L": {
+    "Symbol": "VMC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "VNO": {
+    "Symbol": "VNO",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "VNO_L": {
+    "Symbol": "VNO_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "VRSK": {
+    "Symbol": "VRSK",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "VRSK_L": {
+    "Symbol": "VRSK_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "VRSN": {
+    "Symbol": "VRSN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "VRSN_L": {
+    "Symbol": "VRSN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "VRTX": {
+    "Symbol": "VRTX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "VRTX_L": {
+    "Symbol": "VRTX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "VTR": {
+    "Symbol": "VTR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "VTR_L": {
+    "Symbol": "VTR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "VZ": {
+    "Symbol": "VZ",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "VZ_L": {
+    "Symbol": "VZ_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WAB": {
+    "Symbol": "WAB",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WAB_L": {
+    "Symbol": "WAB_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WAT": {
+    "Symbol": "WAT",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WAT_L": {
+    "Symbol": "WAT_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WBA": {
+    "Symbol": "WBA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WBA_L": {
+    "Symbol": "WBA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WCG": {
+    "Symbol": "WCG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WCG_L": {
+    "Symbol": "WCG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WDC": {
+    "Symbol": "WDC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WDC_L": {
+    "Symbol": "WDC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WEC": {
+    "Symbol": "WEC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WEC_L": {
+    "Symbol": "WEC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WELL": {
+    "Symbol": "WELL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WELL_L": {
+    "Symbol": "WELL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WFC": {
+    "Symbol": "WFC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WFC_L": {
+    "Symbol": "WFC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WHR": {
+    "Symbol": "WHR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WHR_L": {
+    "Symbol": "WHR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WLTW": {
+    "Symbol": "WLTW",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WLTW_L": {
+    "Symbol": "WLTW_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WM": {
+    "Symbol": "WM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WM_L": {
+    "Symbol": "WM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WMB": {
+    "Symbol": "WMB",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WMB_L": {
+    "Symbol": "WMB_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WMT": {
+    "Symbol": "WMT",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WMT_L": {
+    "Symbol": "WMT_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WU": {
+    "Symbol": "WU",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WU_L": {
+    "Symbol": "WU_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WY": {
+    "Symbol": "WY",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WY_L": {
+    "Symbol": "WY_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WYNN": {
+    "Symbol": "WYNN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "WYNN_L": {
+    "Symbol": "WYNN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "XEC": {
+    "Symbol": "XEC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "XEC_L": {
+    "Symbol": "XEC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "XEL": {
+    "Symbol": "XEL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "XEL_L": {
+    "Symbol": "XEL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "XOM": {
+    "Symbol": "XOM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "XOM_L": {
+    "Symbol": "XOM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "XRAY": {
+    "Symbol": "XRAY",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "XRAY_L": {
+    "Symbol": "XRAY_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "XRX": {
+    "Symbol": "XRX",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "XRX_L": {
+    "Symbol": "XRX_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "XYL": {
+    "Symbol": "XYL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "XYL_L": {
+    "Symbol": "XYL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "YUM": {
+    "Symbol": "YUM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "YUM_L": {
+    "Symbol": "YUM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ZBH": {
+    "Symbol": "ZBH",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ZBH_L": {
+    "Symbol": "ZBH_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ZION": {
+    "Symbol": "ZION",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ZION_L": {
+    "Symbol": "ZION_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ZTS": {
+    "Symbol": "ZTS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ZTS_L": {
+    "Symbol": "ZTS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "EOSUSD": {
+    "Symbol": "EOSUSD",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "EOSUSD_L": {
+    "Symbol": "EOSUSD_L",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "EOSJPY": {
+    "Symbol": "EOSJPY",
+    "Precision": 2,
+    "TradeAmountStep": 0.01
+  },
+  "EOSJPY_L": {
+    "Symbol": "EOSJPY_L",
+    "Precision": 2,
+    "TradeAmountStep": 0.01
+  },
+  "EOSGBP": {
+    "Symbol": "EOSGBP",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "EOSGBP_L": {
+    "Symbol": "EOSGBP_L",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "EOSEUR": {
+    "Symbol": "EOSEUR",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "EOSEUR_L": {
+    "Symbol": "EOSEUR_L",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "NEOBTC": {
+    "Symbol": "NEOBTC",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "NEOBTC_L": {
+    "Symbol": "NEOBTC_L",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "XMRBTC": {
+    "Symbol": "XMRBTC",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "XMRBTC_L": {
+    "Symbol": "XMRBTC_L",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "IOTBTC": {
+    "Symbol": "IOTBTC",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "IOTBTC_L": {
+    "Symbol": "IOTBTC_L",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "ETCBTC": {
+    "Symbol": "ETCBTC",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "ETCBTC_L": {
+    "Symbol": "ETCBTC_L",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "EOSBTC": {
+    "Symbol": "EOSBTC",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "EOSBTC_L": {
+    "Symbol": "EOSBTC_L",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "LTCJPY": {
+    "Symbol": "LTCJPY",
+    "Precision": 2,
+    "TradeAmountStep": 0.01
+  },
+  "LTCJPY_L": {
+    "Symbol": "LTCJPY_L",
+    "Precision": 2,
+    "TradeAmountStep": 0.01
+  },
+  "ETHJPY": {
+    "Symbol": "ETHJPY",
+    "Precision": 2,
+    "TradeAmountStep": 0.01
+  },
+  "ETHJPY_L": {
+    "Symbol": "ETHJPY_L",
+    "Precision": 2,
+    "TradeAmountStep": 0.01
+  },
+  "EMCUSD": {
+    "Symbol": "EMCUSD",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "EMCUSD_L": {
+    "Symbol": "EMCUSD_L",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "EMCBTC": {
+    "Symbol": "EMCBTC",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "EMCBTC_L": {
+    "Symbol": "EMCBTC_L",
+    "Precision": 5,
+    "TradeAmountStep": 0.01
+  },
+  "BTCJPY": {
+    "Symbol": "BTCJPY",
+    "Precision": 2,
+    "TradeAmountStep": 0.001
+  },
+  "BTCJPY_L": {
+    "Symbol": "BTCJPY_L",
+    "Precision": 2,
+    "TradeAmountStep": 0.001
+  },
+  "BTCGBP": {
+    "Symbol": "BTCGBP",
+    "Precision": 3,
+    "TradeAmountStep": 0.001
+  },
+  "BTCGBP_L": {
+    "Symbol": "BTCGBP_L",
+    "Precision": 3,
+    "TradeAmountStep": 0.001
+  },
+  "GLDUSD": {
+    "Symbol": "GLDUSD",
+    "Precision": 5,
+    "TradeAmountStep": 1.0
+  },
+  "GLDUSD_L": {
+    "Symbol": "GLDUSD_L",
+    "Precision": 5,
+    "TradeAmountStep": 1.0
+  },
+  "USDTHB": {
+    "Symbol": "USDTHB",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "USDTHB_L": {
+    "Symbol": "USDTHB_L",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "AUDHKD": {
+    "Symbol": "AUDHKD",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "AUDHKD_L": {
+    "Symbol": "AUDHKD_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "USDTWD": {
+    "Symbol": "USDTWD",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "USDTWD_L": {
+    "Symbol": "USDTWD_L",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "GBPHKD": {
+    "Symbol": "GBPHKD",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "GBPHKD_L": {
+    "Symbol": "GBPHKD_L",
+    "Precision": 5,
+    "TradeAmountStep": 1000.0
+  },
+  "USDPHP": {
+    "Symbol": "USDPHP",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "USDPHP_L": {
+    "Symbol": "USDPHP_L",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "USDKRW": {
+    "Symbol": "USDKRW",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "USDKRW_L": {
+    "Symbol": "USDKRW_L",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "USDINR": {
+    "Symbol": "USDINR",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "USDINR_L": {
+    "Symbol": "USDINR_L",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "USDIDR": {
+    "Symbol": "USDIDR",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "USDIDR_L": {
+    "Symbol": "USDIDR_L",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "USDBRL": {
+    "Symbol": "USDBRL",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "USDBRL_L": {
+    "Symbol": "USDBRL_L",
+    "Precision": 3,
+    "TradeAmountStep": 1000.0
+  },
+  "IONS": {
+    "Symbol": "IONS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IONS_L": {
+    "Symbol": "IONS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PANW": {
+    "Symbol": "PANW",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PANW_L": {
+    "Symbol": "PANW_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BYND": {
+    "Symbol": "BYND",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BYND_L": {
+    "Symbol": "BYND_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "JMIA": {
+    "Symbol": "JMIA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "JMIA_L": {
+    "Symbol": "JMIA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CVNA": {
+    "Symbol": "CVNA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CVNA_L": {
+    "Symbol": "CVNA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AAXN": {
+    "Symbol": "AAXN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AAXN_L": {
+    "Symbol": "AAXN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TDOC": {
+    "Symbol": "TDOC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TDOC_L": {
+    "Symbol": "TDOC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CRON": {
+    "Symbol": "CRON",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CRON_L": {
+    "Symbol": "CRON_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ACB": {
+    "Symbol": "ACB",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ACB_L": {
+    "Symbol": "ACB_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CGC": {
+    "Symbol": "CGC",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CGC_L": {
+    "Symbol": "CGC_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NTLA": {
+    "Symbol": "NTLA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NTLA_L": {
+    "Symbol": "NTLA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NVTA": {
+    "Symbol": "NVTA",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NVTA_L": {
+    "Symbol": "NVTA_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FSLR": {
+    "Symbol": "FSLR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FSLR_L": {
+    "Symbol": "FSLR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MTLS": {
+    "Symbol": "MTLS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MTLS_L": {
+    "Symbol": "MTLS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SSYS": {
+    "Symbol": "SSYS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SSYS_L": {
+    "Symbol": "SSYS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "UBER": {
+    "Symbol": "UBER",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "UBER_L": {
+    "Symbol": "UBER_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SQM": {
+    "Symbol": "SQM",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SQM_L": {
+    "Symbol": "SQM_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NIO": {
+    "Symbol": "NIO",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "NIO_L": {
+    "Symbol": "NIO_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GCAP": {
+    "Symbol": "GCAP",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GCAP_L": {
+    "Symbol": "GCAP_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BKR": {
+    "Symbol": "BKR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BKR_L": {
+    "Symbol": "BKR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ELV": {
+    "Symbol": "ELV",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ELV_L": {
+    "Symbol": "ELV_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MSTR": {
+    "Symbol": "MSTR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MSTR_L": {
+    "Symbol": "MSTR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CRWD": {
+    "Symbol": "CRWD",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "CRWD_L": {
+    "Symbol": "CRWD_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ZS": {
+    "Symbol": "ZS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ZS_L": {
+    "Symbol": "ZS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ETSY": {
+    "Symbol": "ETSY",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ETSY_L": {
+    "Symbol": "ETSY_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BILL": {
+    "Symbol": "BILL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BILL_L": {
+    "Symbol": "BILL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PLUG": {
+    "Symbol": "PLUG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PLUG_L": {
+    "Symbol": "PLUG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ZI": {
+    "Symbol": "ZI",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ZI_L": {
+    "Symbol": "ZI_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GLOB": {
+    "Symbol": "GLOB",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "GLOB_L": {
+    "Symbol": "GLOB_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TTD": {
+    "Symbol": "TTD",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "TTD_L": {
+    "Symbol": "TTD_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BMBL": {
+    "Symbol": "BMBL",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "BMBL_L": {
+    "Symbol": "BMBL_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FVRR": {
+    "Symbol": "FVRR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FVRR_L": {
+    "Symbol": "FVRR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SNAP": {
+    "Symbol": "SNAP",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SNAP_L": {
+    "Symbol": "SNAP_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PLTR": {
+    "Symbol": "PLTR",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "PLTR_L": {
+    "Symbol": "PLTR_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LYFT": {
+    "Symbol": "LYFT",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LYFT_L": {
+    "Symbol": "LYFT_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DDOG": {
+    "Symbol": "DDOG",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DDOG_L": {
+    "Symbol": "DDOG_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "JKS": {
+    "Symbol": "JKS",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "JKS_L": {
+    "Symbol": "JKS_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AI": {
+    "Symbol": "AI",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "AI_L": {
+    "Symbol": "AI_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IRBT": {
+    "Symbol": "IRBT",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "IRBT_L": {
+    "Symbol": "IRBT_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ROKU": {
+    "Symbol": "ROKU",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "ROKU_L": {
+    "Symbol": "ROKU_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DOCU": {
+    "Symbol": "DOCU",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "DOCU_L": {
+    "Symbol": "DOCU_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SQ": {
+    "Symbol": "SQ",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SQ_L": {
+    "Symbol": "SQ_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FSLY": {
+    "Symbol": "FSLY",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "FSLY_L": {
+    "Symbol": "FSLY_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LUMN": {
+    "Symbol": "LUMN",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "LUMN_L": {
+    "Symbol": "LUMN_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SMCI": {
+    "Symbol": "SMCI",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "SMCI_L": {
+    "Symbol": "SMCI_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MTCH": {
+    "Symbol": "MTCH",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  },
+  "MTCH_L": {
+    "Symbol": "MTCH_L",
+    "Precision": 2,
+    "TradeAmountStep": 1.0
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "trade_risk": 10,
+    "pairs": {
+        "BTCEUR": {
+        "maxspread": 1000,
+        "trans_cost": 30,
+        "ema1": 3,
+        "ema2": 150,
+        "ema3": 900,
+        "pipvalue": 0.01,
+        "TP": 15000,
+        "SL": 15000
+        }
+    }
+}
