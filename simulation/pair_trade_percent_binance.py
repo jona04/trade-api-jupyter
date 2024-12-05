@@ -222,15 +222,18 @@ class Trade:
         # Processamento de trades diretamente sem funções auxiliares
         def process_trade(signal_type):
             if signal_type == 'buy':
-
-                if self.strategy_pair1 > self.trailing_stop_target:
+                
+                start_price_low_percent = self.get_return(self.start_price, list_values[INDEX_Low][index], 'buy')
+                start_price_high_percent = self.get_return(self.start_price, list_values[INDEX_High][index], 'buy')
+                
+                if start_price_high_percent > self.trailing_stop_target:
                     self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
                 elif list_values[INDEX_SIGNAL_UP_PAIR1][index] == 0 and self.trail_stop_trigger == 0:
                     self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
-                elif self.strategy_pair1 < self.trailing_stop_loss:
+                elif start_price_low_percent < self.trailing_stop_loss:
                     # Fechamento pelo trailing stop
                     self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
-                elif self.strategy_pair1 < self.stop_loss:
+                elif start_price_low_percent < self.stop_loss:
                     self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
                     
                     
@@ -257,14 +260,17 @@ class Trade:
                     
             elif signal_type == 'sell':
                 
-                if self.strategy_pair1 > self.trailing_stop_target:
+                start_price_low_percent = self.get_return(self.start_price, list_values[INDEX_Low][index], 'sell')
+                start_price_high_percent = self.get_return(self.start_price, list_values[INDEX_High][index], 'sell')
+                
+                if start_price_low_percent > self.trailing_stop_target:
                     self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
                 elif list_values[INDEX_SIGNAL_DOWN_PAIR1][index] == 0 and self.trail_stop_trigger == 0:
                     self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
-                elif self.strategy_pair1 < self.trailing_stop_loss:
+                elif start_price_high_percent < self.trailing_stop_loss:
                     # Fechamento pelo trailing stop
                     self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
-                elif self.strategy_pair1 < self.stop_loss:
+                elif start_price_high_percent < self.stop_loss:
                     self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
                     
                     
@@ -392,8 +398,10 @@ class PairTradePercent:
                         ot.strategy_no_tc += (list_value_refs[INDEX_returns][index]*-1)
                     
                 if ot.running == False:
-                    if ot.strategy_pair1 < ot.stop_loss:
-                        ot.strategy_pair1 = ot.stop_loss
+                    if ot.strategy_pair1 < ot.trailing_stop_loss:
+                        ot.strategy_pair1 = ot.trailing_stop_loss
+                    if ot.strategy_pair1 > ot.trailing_stop_target:
+                        ot.strategy_pair1 = ot.trailing_stop_target
                         
                     ot.strategy_pair1 += (2*self.tc)
                     
@@ -406,10 +414,6 @@ class PairTradePercent:
 
         self.len_close = len(closed_trades_pair1)
         self.len_open = len(open_trades_pair1)
-        
-        
-        
-        
         
         if self.len_close > 0:
             self.df_results = pd.DataFrame.from_dict([vars(x) for x in closed_trades_pair1]) 

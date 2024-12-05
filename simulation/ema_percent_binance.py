@@ -1786,7 +1786,57 @@ def detect_signals_strategy_23(df, stop_loss_percent):
     return df
 
 
+def detect_signals_strategy_24(df, entry_threshold, exit_threshold):
+    """
+    Gera sinais de entrada e saída com base na coluna Average_EMA_percent_ema_long.
+    Mantém o sinal ativo até que Average_EMA_percent_ema_long atinja o threshold de saída.
 
+    :param df: DataFrame com a coluna 'Average_EMA_percent_ema_long'.
+    :param entry_threshold: Limiar para entrada (ex.: ±2).
+    :param exit_threshold: Limiar para saída (ex.: 0.5).
+    :return: DataFrame atualizado com sinais de compra e venda.
+    """
+    # Inicializando vetores para sinais
+    signal_up = np.zeros(len(df), dtype=int)  # Compra
+    signal_down = np.zeros(len(df), dtype=int)  # Venda
+
+    ema_percent_long_values = df['Z-Score'].values  # Valores da EMA longa
+
+    # Flag para controlar a posição ativa
+    position = 0  # 1 = Compra ativa, -1 = Venda ativa, 0 = Sem posição
+
+    # Iterar sobre os índices do DataFrame
+    for i in range(1, len(ema_percent_long_values)):  # Começa no índice 1 para verificar cruzamentos
+        if position == 0:  # Sem posição ativa
+            if ema_percent_long_values[i] > entry_threshold:
+                # Average_EMA_percent_ema_long > entry_threshold: Sinal de venda
+                signal_down[i] = 1  # Venda
+                position = -1
+            elif ema_percent_long_values[i] < -entry_threshold:
+                # Average_EMA_percent_ema_long < -entry_threshold: Sinal de compra
+                signal_up[i] = 1  # Compra
+                position = 1
+        else:  # Posição ativa
+            if exit_threshold == 0:
+                # Verificar cruzamento de zero (mudança de sinal)
+                if ema_percent_long_values[i] * ema_percent_long_values[i - 1] < 0:  # Mudança de sinal
+                    position = 0
+            else:
+                # Saída normal: Average_EMA_percent_ema_long dentro do range de exit_threshold
+                if -exit_threshold < ema_percent_long_values[i] < exit_threshold:
+                    position = 0
+
+            # Manter posição ativa
+            if position == 1:
+                signal_up[i] = 1  # Continuar compra
+            elif position == -1:
+                signal_down[i] = 1  # Continuar venda
+
+    # Adicionando os vetores de sinal ao DataFrame
+    df["SIGNAL_UP"] = signal_up
+    df["SIGNAL_DOWN"] = signal_down
+
+    return df
 
 
 INDEX_SIGNAL_UP = 0
@@ -1821,8 +1871,8 @@ class Trade:
         # self.trailing_stop_target = abs(self.stop_loss_percent)  # Define o alvo inicial do trailing stop
         # self.trailing_stop_loss = self.stop_loss_percent # Define o nível inicial de stop loss
 
-        self.trailing_stop_target = 0.05  # Define o alvo inicial do trailing stop
-        self.trailing_stop_loss = -0.01 # Define o nível inicial de stop loss
+        self.trailing_stop_target = 0.02  # Define o alvo inicial do trailing stop
+        self.trailing_stop_loss = -0.02 # Define o nível inicial de stop loss
 
         if list_values[INDEX_SIGNAL_UP][index] in [1]:
             self.type = 'buy'
@@ -1965,7 +2015,15 @@ class Trade:
                 # elif list_values[INDEX_SIGNAL_DOWN][index] == 1 and self.trail_stop_trigger == 0:
                 #     self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
 
-                if list_values[INDEX_SIGNAL_DOWN][index] == 1:
+                # if list_values[INDEX_SIGNAL_DOWN][index] == 1:
+                #     self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
+
+                if self.strategy > self.trailing_stop_target:
+                    self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
+                elif list_values[INDEX_SIGNAL_UP][index] == 0 and self.trail_stop_trigger == 0:
+                    self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
+                elif self.strategy < self.trailing_stop_loss:
+                    # Fechamento pelo trailing stop
                     self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
 
             elif signal_type == 'sell':
@@ -2068,11 +2126,16 @@ class Trade:
                 # elif list_values[INDEX_SIGNAL_UP][index] == 1 and self.trail_stop_trigger == 0:
                 #     self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
 
-                if list_values[INDEX_SIGNAL_UP][index] == 1:
+                # if list_values[INDEX_SIGNAL_UP][index] == 1:
+                #     self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
+
+                if self.strategy > self.trailing_stop_target:
                     self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
-
-
-
+                elif list_values[INDEX_SIGNAL_DOWN][index] == 0 and self.trail_stop_trigger == 0:
+                    self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
+                elif self.strategy < self.trailing_stop_loss:
+                    # Fechamento pelo trailing stop
+                    self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
 
         # Verificação dos sinais de COMPRA
         if self.SIGNAL_UP == 1:
@@ -2163,7 +2226,9 @@ class PairTradePercent:
             detect_signals_strategy_22(self.df, self.stop_loss_percent)
         elif self.strategy == 23:
             detect_signals_strategy_23(self.df, self.stop_loss_percent)
-        
+        elif self.strategy == 24:
+            detect_signals_strategy_24(self.df, entry_threshold=self.EMA_percent_s_force, exit_threshold=1)
+            
     def run_test(self):
         
         # print("running test...")
@@ -2187,11 +2252,14 @@ class PairTradePercent:
         for index in range(self.df.shape[0]):
             
             if (
-                (list_value_refs[INDEX_SIGNAL_UP][index] == 1 and list_value_refs[INDEX_SIGNAL_UP][index-1] == 0) or 
-                (list_value_refs[INDEX_SIGNAL_DOWN][index] == 1 and list_value_refs[INDEX_SIGNAL_DOWN][index-1] == 0)
+                # (list_value_refs[INDEX_SIGNAL_UP][index] == 1 and list_value_refs[INDEX_SIGNAL_UP][index-1] == 0) or 
+                # (list_value_refs[INDEX_SIGNAL_DOWN][index] == 1 and list_value_refs[INDEX_SIGNAL_DOWN][index-1] == 0)
+                list_value_refs[INDEX_SIGNAL_UP][index] == 1 or 
+                list_value_refs[INDEX_SIGNAL_DOWN][index] == 1
                 ):
-                open_trades_m5.append(Trade(list_value_refs, index, self.stop_loss_percent))  
-                
+                # open_trades_m5.append(Trade(list_value_refs, index, self.stop_loss_percent))  
+                if len(open_trades_m5) == 0:
+                    open_trades_m5.append(Trade(list_value_refs, index, self.stop_loss_percent))
                 
             for ind, ot in enumerate(open_trades_m5):
                 ot.update(list_value_refs, index)
@@ -2220,8 +2288,8 @@ class PairTradePercent:
                     # if ot.strategy < -0.005:
                     #     ot.strategy = -0.005
                     
-                    if ot.strategy < 0.001 and ot.trail_stop_trigger == 1:
-                        ot.strategy = 0.001
+                    # if ot.strategy < 0.001 and ot.trail_stop_trigger == 1:
+                    #     ot.strategy = 0.001
                     
                     ot.strategy_real = ot.strategy
                     # if ot.strategy_real > 0:
@@ -2268,7 +2336,7 @@ class PairTradePercent:
             # print("")
             
 
-        # del self.df
+        del self.df
         del closed_trades_m5
         del open_trades_m5
         # del self.df_results
