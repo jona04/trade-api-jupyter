@@ -177,7 +177,7 @@ class Trade:
         self.first_return = True
         self.trail_stop_trigger = 0
 
-        self.trailing_stop_target = 0.02  # Define o alvo inicial do trailing stop
+        self.trailing_stop_target = 0.01  # Define o alvo inicial do trailing stop
         self.trailing_stop_loss = -0.02 # Define o nível inicial de stop loss
 
         self.stop_loss = -0.03
@@ -226,8 +226,22 @@ class Trade:
                 start_price_low_percent = self.get_return(self.start_price, list_values[INDEX_Low][index], 'buy')
                 start_price_high_percent = self.get_return(self.start_price, list_values[INDEX_High][index], 'buy')
                 
-                if start_price_high_percent > self.trailing_stop_target:
-                    self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
+                # if start_price_high_percent > self.trailing_stop_target:
+                #     self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
+                # elif list_values[INDEX_SIGNAL_UP_PAIR1][index] == 0 and self.trail_stop_trigger == 0:
+                #     self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
+                # elif start_price_low_percent < self.trailing_stop_loss:
+                #     # Fechamento pelo trailing stop
+                #     self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
+                # elif start_price_low_percent < self.stop_loss:
+                #     self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
+                    
+                    
+                if self.strategy_pair1 > self.trailing_stop_target:
+                    # Atualiza o trailing stop quando ultrapassa o próximo alvo
+                    self.trail_stop_trigger = 1
+                    self.trailing_stop_target += (self.trailing_stop_target)
+                    self.trailing_stop_loss = self.strategy_pair1 / 1.5
                 elif list_values[INDEX_SIGNAL_UP_PAIR1][index] == 0 and self.trail_stop_trigger == 0:
                     self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
                 elif start_price_low_percent < self.trailing_stop_loss:
@@ -235,21 +249,6 @@ class Trade:
                     self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
                 elif start_price_low_percent < self.stop_loss:
                     self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
-                    
-                    
-                # start_price_low_percent = self.get_return(self.start_price, list_values[INDEX_Low][index], 'buy')
-                # if self.strategy_pair1 > self.trailing_stop_target:
-                #     # Atualiza o trailing stop quando ultrapassa o próximo alvo
-                #     self.trail_stop_trigger = 1
-                #     self.trailing_stop_target += (self.trailing_stop_target / 2)
-                #     self.trailing_stop_loss = self.strategy_pair1 / 1.5
-                # elif list_values[INDEX_SIGNAL_UP_PAIR1][index] == 0 and self.trail_stop_trigger == 0:
-                #     self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
-                # elif self.strategy_pair1 < self.trailing_stop_loss:
-                #     # Fechamento pelo trailing stop
-                #     self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
-                # elif start_price_low_percent < self.stop_loss:
-                #     self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
                     
                 # start_price_low_percent = self.get_return(self.start_price, list_values[INDEX_Low][index], 'buy')
                 # start_price_high_percent = self.get_return(self.start_price, list_values[INDEX_High][index], 'buy')
@@ -263,8 +262,23 @@ class Trade:
                 start_price_low_percent = self.get_return(self.start_price, list_values[INDEX_Low][index], 'sell')
                 start_price_high_percent = self.get_return(self.start_price, list_values[INDEX_High][index], 'sell')
                 
-                if start_price_low_percent > self.trailing_stop_target:
-                    self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
+                # if start_price_low_percent > self.trailing_stop_target:
+                #     self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
+                # elif list_values[INDEX_SIGNAL_DOWN_PAIR1][index] == 0 and self.trail_stop_trigger == 0:
+                #     self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
+                # elif start_price_high_percent < self.trailing_stop_loss:
+                #     # Fechamento pelo trailing stop
+                #     self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
+                # elif start_price_high_percent < self.stop_loss:
+                #     self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
+                    
+                    
+                start_price_high_percent = self.get_return(self.start_price, list_values[INDEX_High][index], 'sell')
+                if self.strategy_pair1 > self.trailing_stop_target:
+                    # Atualiza o trailing stop quando ultrapassa o próximo alvo
+                    self.trail_stop_trigger = 1
+                    self.trailing_stop_target += (self.trailing_stop_target)
+                    self.trailing_stop_loss = self.strategy_pair1 / 1.5
                 elif list_values[INDEX_SIGNAL_DOWN_PAIR1][index] == 0 and self.trail_stop_trigger == 0:
                     self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
                 elif start_price_high_percent < self.trailing_stop_loss:
@@ -272,21 +286,6 @@ class Trade:
                     self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
                 elif start_price_high_percent < self.stop_loss:
                     self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
-                    
-                    
-                # start_price_high_percent = self.get_return(self.start_price, list_values[INDEX_High][index], 'sell')
-                # if self.strategy_pair1 > self.trailing_stop_target:
-                #     # Atualiza o trailing stop quando ultrapassa o próximo alvo
-                #     self.trail_stop_trigger = 1
-                #     self.trailing_stop_target += (self.trailing_stop_target / 2)
-                #     self.trailing_stop_loss = self.strategy_pair1 / 1.5
-                # elif list_values[INDEX_SIGNAL_DOWN_PAIR1][index] == 0 and self.trail_stop_trigger == 0:
-                #     self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
-                # elif self.strategy_pair1 < self.trailing_stop_loss:
-                #     # Fechamento pelo trailing stop
-                #     self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
-                # elif start_price_high_percent < self.stop_loss:
-                #     self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
                     
                 # start_price_high_percent = self.get_return(self.start_price, list_values[INDEX_High][index], 'sell')
                 # start_price_low_percent = self.get_return(self.start_price, list_values[INDEX_Low][index], 'sell')
@@ -317,7 +316,7 @@ class PairTradePercent:
                  exit_threshold,
                  corr=0,
                  spread_vol=0,
-                 tc=-0.0004,
+                 tc=-0.0005,
                  ):
         self.df = df
         self.first_price = df.Close_Pair1.values[0]
@@ -400,8 +399,8 @@ class PairTradePercent:
                 if ot.running == False:
                     if ot.strategy_pair1 < ot.trailing_stop_loss:
                         ot.strategy_pair1 = ot.trailing_stop_loss
-                    if ot.strategy_pair1 > ot.trailing_stop_target:
-                        ot.strategy_pair1 = ot.trailing_stop_target
+                    # if ot.strategy_pair1 > ot.trailing_stop_target:
+                    #     ot.strategy_pair1 = ot.trailing_stop_target
                         
                     ot.strategy_pair1 += (2*self.tc)
                     

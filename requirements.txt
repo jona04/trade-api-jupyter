@@ -9,3 +9,8 @@ black==24.10.0
 python-dotenv==1.0.1
 fastapi[standard]==0.115.0
 python-binance
+pytest-cov
+pytest-asyncio
+python-telegram-bot
+mplfinance
+scikit-learn
