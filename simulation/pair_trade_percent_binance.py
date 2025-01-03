@@ -164,6 +164,35 @@ INDEX_returns = 7
 INDEX_strategy = 8
 INDEX_Low = 9
 INDEX_High = 10
+INDEX_Z_Score = 11
+INDEX_Z_Score2 = 12
+INDEX_Z_Score3 = 13
+INDEX_Z_Score4 = 14
+INDEX_Z_Score5 = 15
+INDEX_Differenced_Spread = 16
+
+# Índices das colunas adicionais
+# INDEX_Target_Cluster_Ratio = 11
+# INDEX_Delta_Z = 12
+# INDEX_Momentum = 13
+# INDEX_Volatility_Target = 14
+# INDEX_Volatility_Ratio = 15
+# INDEX_Hour = 16
+# INDEX_Day_Of_Week = 17
+# INDEX_Correlation_Mean = 18
+
+# INDEX_Spread = 20
+# INDEX_Regression = 21
+# INDEX_Spread_Std = 22
+
+# INDEX_Direction_Index = 23
+# INDEX_Velocity_Index = 24
+# INDEX_Returns_Index = 25
+# INDEX_Direction_Cluster = 26
+# INDEX_Velocity_Cluster = 27
+# INDEX_Returns_Cluster = 28
+# INDEX_Dynamic_Correlation = 29
+# INDEX_Cluster_Dispersion = 30
 
 class Trade:
     def __init__(self, list_values, index):
@@ -178,7 +207,7 @@ class Trade:
         self.trail_stop_trigger = 0
 
         self.trailing_stop_target = 0.01  # Define o alvo inicial do trailing stop
-        self.trailing_stop_loss = -0.02 # Define o nível inicial de stop loss
+        self.trailing_stop_loss = -0.01 # Define o nível inicial de stop loss
 
         self.stop_loss = -0.03
         
@@ -197,6 +226,34 @@ class Trade:
         self.end_time = list_values[INDEX_time][index]
         self.start_time = list_values[INDEX_time][index]
         
+        self.Z_Score = list_values[INDEX_Z_Score][index]
+        # self.Z_Score2 = list_values[INDEX_Z_Score2][index]
+        # self.Z_Score3 = list_values[INDEX_Z_Score3][index]
+        # self.Z_Score4 = list_values[INDEX_Z_Score4][index]
+        # self.Z_Score5 = list_values[INDEX_Z_Score5][index]
+        # self.Differenced_Spread = list_values[INDEX_Differenced_Spread][index]
+        # self.Target_Cluster_Ratio = list_values[INDEX_Target_Cluster_Ratio][index]
+        # self.Delta_Z = list_values[INDEX_Delta_Z][index]
+        # self.Momentum = list_values[INDEX_Momentum][index]
+        # self.Volatility_Target = list_values[INDEX_Volatility_Target][index]
+        # self.Volatility_Ratio = list_values[INDEX_Volatility_Ratio][index]
+        # self.Hour = list_values[INDEX_Hour][index]
+        # self.Day_Of_Week = list_values[INDEX_Day_Of_Week][index]
+        # self.Correlation_Mean = list_values[INDEX_Correlation_Mean][index]
+        
+        # self.Spread = list_values[INDEX_Spread][index]
+        # self.Regression_Index = list_values[INDEX_Regression][index]
+        # self.Spread_Std = list_values[INDEX_Spread_Std][index]
+        
+        # self.Direction_Index = list_values[INDEX_Direction_Index][index]
+        # self.Velocity_Index = list_values[INDEX_Velocity_Index][index]
+        # self.Returns_Index = list_values[INDEX_Returns_Index][index]
+        # self.Direction_Cluster = list_values[INDEX_Direction_Cluster][index]
+        # self.Velocity_Cluster = list_values[INDEX_Velocity_Cluster][index]
+        # self.Returns_Cluster = list_values[INDEX_Returns_Cluster][index]
+        # self.Dynamic_Correlation = list_values[INDEX_Dynamic_Correlation][index]
+        # self.Cluster_Dispersion = list_values[INDEX_Cluster_Dispersion][index]
+
     def close_trade(self, list_values, index, type, trigger_price):
         self.running = False
         self.end_time = list_values[INDEX_time][index]
@@ -237,15 +294,15 @@ class Trade:
                 #     self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
                     
                     
-                if self.strategy_pair1 > self.trailing_stop_target:
+                if start_price_low_percent < self.trailing_stop_loss:
+                    # Fechamento pelo trailing stop
+                    self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
+                elif self.strategy_pair1 > self.trailing_stop_target:
                     # Atualiza o trailing stop quando ultrapassa o próximo alvo
                     self.trail_stop_trigger = 1
                     self.trailing_stop_target += (self.trailing_stop_target)
                     self.trailing_stop_loss = self.strategy_pair1 / 1.5
                 elif list_values[INDEX_SIGNAL_UP_PAIR1][index] == 0 and self.trail_stop_trigger == 0:
-                    self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
-                elif start_price_low_percent < self.trailing_stop_loss:
-                    # Fechamento pelo trailing stop
                     self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
                 elif start_price_low_percent < self.stop_loss:
                     self.close_trade(list_values, index, 'buy', list_values[INDEX_Close][index])
@@ -273,16 +330,15 @@ class Trade:
                 #     self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
                     
                     
-                start_price_high_percent = self.get_return(self.start_price, list_values[INDEX_High][index], 'sell')
-                if self.strategy_pair1 > self.trailing_stop_target:
+                if start_price_high_percent < self.trailing_stop_loss:
+                    # Fechamento pelo trailing stop
+                    self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
+                elif self.strategy_pair1 > self.trailing_stop_target:
                     # Atualiza o trailing stop quando ultrapassa o próximo alvo
                     self.trail_stop_trigger = 1
                     self.trailing_stop_target += (self.trailing_stop_target)
                     self.trailing_stop_loss = self.strategy_pair1 / 1.5
                 elif list_values[INDEX_SIGNAL_DOWN_PAIR1][index] == 0 and self.trail_stop_trigger == 0:
-                    self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
-                elif start_price_high_percent < self.trailing_stop_loss:
-                    # Fechamento pelo trailing stop
                     self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
                 elif start_price_high_percent < self.stop_loss:
                     self.close_trade(list_values, index, 'sell', list_values[INDEX_Close][index])
@@ -314,8 +370,6 @@ class PairTradePercent:
                  strategy,
                  entry_threshold, 
                  exit_threshold,
-                 corr=0,
-                 spread_vol=0,
                  tc=-0.0005,
                  ):
         self.df = df
@@ -327,8 +381,6 @@ class PairTradePercent:
         self.tc = tc
         self.entry_threshold = entry_threshold
         self.exit_threshold = exit_threshold
-        self.corr = corr
-        self.spread_vol = spread_vol
         
         self.prepare_data()
         
@@ -363,7 +415,32 @@ class PairTradePercent:
             self.df.returns_pair1.values,
             self.df.strategy_pair1.values,
             self.df.Low.values,
-            self.df.High.values
+            self.df.High.values,
+            self.df['Z-Score'].values,
+            # self.df['Z-Score2'].values,
+            # self.df['Z-Score3'].values,
+            # self.df['Z-Score4'].values,
+            # self.df['Z-Score5'].values,
+            # self.df.Differenced_Spread.values,
+            # self.df.Target_Cluster_Ratio.values,
+            # self.df.Delta_Z.values,
+            # self.df.Momentum.values,
+            # self.df.Volatility_Target.values,
+            # self.df.Volatility_Ratio.values,
+            # self.df.Hour.values,
+            # self.df.Day_Of_Week.values,
+            # self.df.Correlation_Mean.values,
+            # self.df.Spread.values,
+            # self.df.Regression_Index.values,
+            # self.df.Spread_Std.values,
+            # self.df.Direction_Index.values,
+            # self.df.Velocity_Index.values,
+            # self.df.Returns_Index.values,
+            # self.df.Direction_Cluster.values,
+            # self.df.Velocity_Cluster.values,
+            # self.df.Returns_Cluster.values,
+            # self.df.Dynamic_Correlation.values,
+            # self.df.Cluster_Dispersion.values,
         ]
 
         for index in range(self.df.shape[0]):
@@ -377,7 +454,8 @@ class PairTradePercent:
                 (
                     (list_value_refs[INDEX_SIGNAL_UP_PAIR1][index] == 1) or 
                     (list_value_refs[INDEX_SIGNAL_DOWN_PAIR1][index] == 1)
-                ) and 
+                ) 
+                and 
                 len(open_trades_pair1) == 0
             ):
                 open_trades_pair1.append(Trade(list_value_refs, index))  
