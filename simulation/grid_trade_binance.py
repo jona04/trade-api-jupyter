@@ -1,3 +1,6 @@
+from signal_module import calculate_signals_grid_trading1
+from signal_module import calculate_signals_grid_trading2
+
 from collections import deque
 
 import pandas as pd
@@ -12,6 +15,38 @@ SIGNAL_UP = 1
 SIGNAL_DOWN = 1
 
 def detect_signals_grid_trading1(df, time_in_minutes, movimentation):
+
+    signal_up = np.zeros(len(df), dtype=np.int32)
+    signal_down = np.zeros(len(df), dtype=np.int32)
+
+    close_prices = df['Close'].values
+    low_prices = df['Low'].values
+    high_prices = df['High'].values
+    timestamps = df['Time'].astype('int64').values
+    
+    time_threshold = time_in_minutes * 60  # Convertendo minutos para segundos
+    time_threshold = np.timedelta64(int(time_threshold * 1e9), 'ns')
+
+    calculate_signals_grid_trading1(
+        close_prices,
+        high_prices,
+        low_prices,
+        timestamps,
+        movimentation,
+        time_in_minutes,
+        signal_up,
+        signal_down
+    )
+    
+    # Adicionando os vetores de sinal ao DataFrame
+    df["SIGNAL_UP"] = signal_up
+    df["SIGNAL_DOWN"] = signal_down
+    
+    return df
+
+
+
+def detect_signals_grid_trading11(df, time_in_minutes, movimentation):
 
     signal_up = np.zeros(len(df), dtype=int)  # Long 
     signal_down = np.zeros(len(df), dtype=int)  # Short 
@@ -59,6 +94,37 @@ def detect_signals_grid_trading1(df, time_in_minutes, movimentation):
 
 
 def detect_signals_grid_trading2(df, time_in_minutes, movimentation):
+
+    signal_up = np.zeros(len(df), dtype=np.int32)
+    signal_down = np.zeros(len(df), dtype=np.int32)
+
+    close_prices = df['Close'].values
+    low_prices = df['Low'].values
+    high_prices = df['High'].values
+    timestamps = df['Time'].values
+    
+    time_threshold = time_in_minutes * 60  # Convertendo minutos para segundos
+    time_threshold = np.timedelta64(int(time_threshold * 1e9), 'ns')
+
+    calculate_signals_grid_trading2(
+        close_prices,
+        high_prices,
+        low_prices,
+        timestamps,
+        movimentation,
+        time_in_minutes,
+        signal_up,
+        signal_down
+    )
+    
+    # Adicionando os vetores de sinal ao DataFrame
+    df["SIGNAL_UP"] = signal_up
+    df["SIGNAL_DOWN"] = signal_down
+    
+    return df
+
+
+def detect_signals_grid_trading22(df, time_in_minutes, movimentation):
 
     signal_up = np.zeros(len(df), dtype=int)  # Long 
     signal_down = np.zeros(len(df), dtype=int)  # Short 
@@ -266,8 +332,12 @@ class GridTradeStrategy:
         print("Preparing data.")
         if self.strategy == 1:
             self.df = detect_signals_grid_trading1(self.df, self.time_in_minutes, self.movimentation)
+        elif self.strategy == 11:
+            self.df = detect_signals_grid_trading11(self.df, self.time_in_minutes, self.movimentation)
         elif self.strategy == 2:
             self.df = detect_signals_grid_trading2(self.df, self.time_in_minutes, self.movimentation)
+        elif self.strategy == 22:
+            self.df = detect_signals_grid_trading22(self.df, self.time_in_minutes, self.movimentation)
         else:
             raise ValueError(f"Estratégia {self.strategy} não implementada.")
     
@@ -323,7 +393,7 @@ class GridTradeStrategy:
                     #     ot.strategy = -self.sl
                     
                     # if ot.strategy < ot.trailing_stop_loss:
-                    #     ot.strategy = ot.trailing_stop_loss
+                    ot.strategy = ot.trailing_stop_loss
                         
                     ot.strategy += (2*self.tc)
                     
