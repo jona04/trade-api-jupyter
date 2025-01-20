@@ -329,7 +329,7 @@ class GridTradeStrategy:
         Prepara os dados para a estratégia, chamando o método correto para detectar sinais.
         Adiciona as colunas SIGNAL_UP e SIGNAL_DOWN ao DataFrame.
         """
-        print("Preparing data.")
+        # print("Preparing data.")
         if self.strategy == 1:
             self.df = detect_signals_grid_trading1(self.df, self.time_in_minutes, self.movimentation)
         elif self.strategy == 11:
@@ -343,7 +343,7 @@ class GridTradeStrategy:
     
     def run_test(self):
         
-        print("running test...")
+        # print("running test...")
         
         opened_trades = deque()
         closed_trades = deque()
@@ -393,7 +393,7 @@ class GridTradeStrategy:
                     #     ot.strategy = -self.sl
                     
                     # if ot.strategy < ot.trailing_stop_loss:
-                    ot.strategy = ot.trailing_stop_loss
+                    # ot.strategy = ot.trailing_stop_loss
                         
                     ot.strategy += (2*self.tc)
                     
